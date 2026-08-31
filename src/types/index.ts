@@ -1,11 +1,11 @@
 export interface Publication {
   id: string;
-  type: "Journal" | "International Conference" | "Brazilian Conference (SBrT)";
+  type: "Periódico" | "Conferência Internacional" | "Conferência Nacional (SBrT)";
   title: string;
   authors: string;
   venue: string;
   year: number;
-  status: "Published" | "Accepted" | "Accepted / In Press" | "Submitted";
+  status: "Publicado" | "Aceito" | "Aceito / No Prelo" | "Submetido";
   link: string | null;
   thematic_axes: string[];
   work_packages: string[];
@@ -35,18 +35,18 @@ export const THEMATIC_AXES = [
 ] as const;
 
 export const WORK_PACKAGES = [
-  { key: "WP1", label: "WP1 – Satellite Remote Sensing & Surveillance", color: "#8B5CF6" },
-  { key: "WP2", label: "WP2 – Hardware, Antennas & RF Development", color: "#EC4899" },
-  { key: "WP3", label: "WP3 – Testbeds & Platforms for UAV Sensing", color: "#10B981" },
-  { key: "WP4", label: "WP4 – Signal Processing for Sensing & Comms", color: "#FB6602" },
+  { key: "WP1", label: "WP1 – Sensoriamento Remoto & Vigilância por Satélite", color: "#8B5CF6" },
+  { key: "WP2", label: "WP2 – Hardware, Antenas & Desenvolvimento RF", color: "#EC4899" },
+  { key: "WP3", label: "WP3 – Testbeds & Plataformas para Sensoriamento com VANTs", color: "#06B6D4" },
+  { key: "WP4", label: "WP4 – Processamento de Sinais para Sensoriamento & Comunicações", color: "#FB6602" },
 ] as const;
 
 export const INSTITUTIONS = [
-  { key: "UFC", label: "UFC – Universidade Federal do Ceará" },
-  { key: "ITA", label: "ITA – Instituto Tecnológico de Aeronáutica" },
-  { key: "UFRGS", label: "UFRGS – Univ. Federal do Rio Grande do Sul" },
-  { key: "PUCRS", label: "PUCRS – Pontifícia Univ. Católica do RS" },
-  { key: "UNIPAMPA", label: "UNIPAMPA – Universidade Federal do Pampa" },
+  { key: "UFC", label: "UFC – Universidade Federal do Ceará", color: "#FB6602" },
+  { key: "ITA", label: "ITA – Instituto Tecnológico de Aeronáutica", color: "#2D82B5" },
+  { key: "UFRGS", label: "UFRGS – Univ. Federal do Rio Grande do Sul", color: "#8B5CF6" },
+  { key: "PUCRS", label: "PUCRS – Pontifícia Univ. Católica do RS", color: "#EC4899" },
+  { key: "UNIPAMPA", label: "UNIPAMPA – Universidade Federal do Pampa", color: "#06B6D4" },
 ] as const;
 
 export const COLORS = {
@@ -55,5 +55,5 @@ export const COLORS = {
   accent: "#FB6602",
   blue: "#2D82B5",
   border: "#1E3A5F",
-  axisColors: ["#FB6602", "#2D82B5", "#10B981", "#8B5CF6", "#EC4899", "#F59E0B"],
+  axisColors: ["#FB6602", "#2D82B5", "#06B6D4", "#8B5CF6", "#EC4899", "#F59E0B"],
 } as const;

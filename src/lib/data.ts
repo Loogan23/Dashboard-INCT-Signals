@@ -1,6 +1,15 @@
 import publications from "../../public/data/publications.json";
 import { Publication, FilterState } from "@/types";
 
+export const COLORS = {
+  navy: "#08172D",
+  card: "#0F233F",
+  accent: "#FB6602",
+  blue: "#2D82B5",
+  border: "#1E3A5F",
+  axisColors: ["#FB6602", "#2D82B5", "#06B6D4", "#8B5CF6", "#EC4899", "#F59E0B"],
+} as const;
+
 export function getPublications(): Publication[] {
   return publications as Publication[];
 }
@@ -9,7 +18,7 @@ export function filterPublications(
   data: Publication[],
   filters: FilterState
 ): Publication[] {
-  let filtered = data.filter((p) => {
+  const filtered = data.filter((p) => {
     const search = filters.search.toLowerCase();
     const matchSearch =
       !search ||
@@ -59,24 +68,24 @@ export function filterPublications(
 }
 
 export function getAnalyticsData(data: Publication[]) {
-  // By year & type
+  // Por ano & tipo
   const years = [...new Set(data.map((p) => p.year))].sort();
   const yearJournals = years.map(
-    (y) => data.filter((p) => p.year === y && p.type === "Journal").length
+    (y) => data.filter((p) => p.year === y && p.type === "Periódico").length
   );
   const yearIntConf = years.map(
     (y) =>
-      data.filter((p) => p.year === y && p.type === "International Conference")
+      data.filter((p) => p.year === y && p.type === "Conferência Internacional")
         .length
   );
   const yearNatConf = years.map(
     (y) =>
       data.filter(
-        (p) => p.year === y && p.type === "Brazilian Conference (SBrT)"
+        (p) => p.year === y && p.type === "Conferência Nacional (SBrT)"
       ).length
   );
 
-  // By axis
+  // Por eixo
   const axisMap: Record<string, number> = {};
   data.forEach((p) =>
     (p.thematic_axes || []).forEach(
@@ -84,13 +93,13 @@ export function getAnalyticsData(data: Publication[]) {
     )
   );
 
-  // By WP
+  // Por WP
   const wpMap: Record<string, number> = { WP1: 0, WP2: 0, WP3: 0, WP4: 0 };
   data.forEach((p) =>
     (p.work_packages || []).forEach((w) => (wpMap[w] = (wpMap[w] || 0) + 1))
   );
 
-  // By institution
+  // Por instituição
   const uniMap: Record<string, number> = {
     UFC: 0, ITA: 0, UFRGS: 0, PUCRS: 0, UNIPAMPA: 0,
   };

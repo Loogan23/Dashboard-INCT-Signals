@@ -1,26 +1,28 @@
 @import "tailwindcss";
 
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
+@theme {
+  --color-inct-navy: #08172D;
+  --color-inct-card: #0F233F;
+  --color-inct-accent: #FB6602;
+  --color-inct-blue: #2D82B5;
+  --color-inct-border: #1E3A5F;
 }
 
-@theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
+/* Transição ultra fluida e suave para mudança de tema (Light <-> Dark) */
+*, ::before, ::after {
+  transition-property: background-color, border-color, color, fill, stroke, box-shadow, opacity;
+  transition-duration: 450ms;
+  transition-timing-function: cubic-bezier(0.16, 1, 0.3, 1); /* Curva suave de desaceleração suave */
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
-}
+/* Custom scrollbar */
+::-webkit-scrollbar { width: 6px; height: 6px; }
+::-webkit-scrollbar-track { background: var(--bg-main, #08172D); }
+::-webkit-scrollbar-thumb { background: #1E3A5F; border-radius: 3px; }
+::-webkit-scrollbar-thumb:hover { background: #FB6602; }
 
-body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+/* Recharts tooltip */
+.recharts-tooltip-wrapper .recharts-default-tooltip {
+  border-radius: 8px !important;
+  font-size: 12px !important;
 }

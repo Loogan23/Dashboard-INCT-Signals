@@ -1,0 +1,28 @@
+name: Sincronizar Publicações do INCT Signals
+
+on:
+  schedule:
+    - cron: '0 8 * * 1' # Toda segunda-feira às 08:00 UTC
+  workflow_dispatch: # Permite disparo manual via interface do GitHub
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repositório
+        uses: actions/checkout@v4
+
+      - name: Configurar Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Sincronizar Publicações
+        run: |
+          python scripts/sync_publications.py
+
+      - name: Commit e Push das alterações
+        uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          commit_message: "chore: atualização automática das publicações do INCT Signals [skip ci]"
+          file_pattern: "public/data/publications.json"
