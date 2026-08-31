@@ -77,24 +77,4 @@ export interface CollaborationEdge {
   pubTitles: string[];
 }
 
-export interface TagWeight {
-  tag: string;
-  count: number;
-  percentage: number;
-}
-
-export interface GeoLocationNode {
-  id: string;
-  name: string;
-  fullName: string;
-  city: string;
-  stateCountry: string;
-  lat: number;
-  lng: number;
-  x: number; // Porcentagem SVG horizontal
-  y: number; // Porcentagem SVG vertical
-  type: "core" | "international";
-  count: number;
-  color: string;
-}
 

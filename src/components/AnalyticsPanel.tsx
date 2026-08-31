@@ -16,15 +16,14 @@ import {
 import { Publication } from "@/types";
 import { getAnalyticsData, COLORS } from "@/lib/data";
 import { CollaborationNetwork } from "@/components/CollaborationNetwork";
-import { GeoMapPanel } from "@/components/GeoMapPanel";
-import { BarChart3, Users, Globe, Layers } from "lucide-react";
+import { BarChart3, Users, Layers } from "lucide-react";
 
 interface AnalyticsPanelProps {
   data: Publication[];
   theme?: "dark" | "light";
 }
 
-type ViewMode = "all" | "charts" | "network" | "geomap";
+type ViewMode = "all" | "charts" | "network";
 
 // Nomes curtos e legíveis para os Eixos Temáticos nos gráficos
 const SHORT_AXIS_NAMES: Record<string, string> = {
@@ -121,7 +120,6 @@ export function AnalyticsPanel({ data, theme = "dark" }: AnalyticsPanelProps) {
             { id: "all", label: "Visão Completa", icon: Layers },
             { id: "charts", label: "Gráficos de Distribuição", icon: BarChart3 },
             { id: "network", label: "Grafo de Colaboração", icon: Users },
-            { id: "geomap", label: "Mapa Geográfico Exato", icon: Globe },
           ].map((tab) => {
             const Icon = tab.icon;
             const isActive = viewMode === tab.id;
@@ -264,11 +262,6 @@ export function AnalyticsPanel({ data, theme = "dark" }: AnalyticsPanelProps) {
       {/* 2. SEÇÃO: GRAFO DE COLABORAÇÃO INSTITUCIONAL */}
       {(viewMode === "all" || viewMode === "network") && (
         <CollaborationNetwork data={data} theme={theme} />
-      )}
-
-      {/* 3. SEÇÃO: MAPA GEOGRÁFICO */}
-      {(viewMode === "all" || viewMode === "geomap") && (
-        <GeoMapPanel data={data} theme={theme} />
       )}
     </div>
   );
