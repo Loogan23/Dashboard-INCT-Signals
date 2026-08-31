@@ -16,17 +16,15 @@ import {
 import { Publication } from "@/types";
 import { getAnalyticsData, COLORS } from "@/lib/data";
 import { CollaborationNetwork } from "@/components/CollaborationNetwork";
-import { WordCloudPanel } from "@/components/WordCloudPanel";
 import { GeoMapPanel } from "@/components/GeoMapPanel";
-import { BarChart3, Users, Tag, Globe, Layers } from "lucide-react";
+import { BarChart3, Users, Globe, Layers } from "lucide-react";
 
 interface AnalyticsPanelProps {
   data: Publication[];
-  onSelectTag?: (tag: string) => void;
   theme?: "dark" | "light";
 }
 
-type ViewMode = "all" | "charts" | "network" | "wordcloud" | "geomap";
+type ViewMode = "all" | "charts" | "network" | "geomap";
 
 // Nomes curtos e legíveis para os Eixos Temáticos nos gráficos
 const SHORT_AXIS_NAMES: Record<string, string> = {
@@ -46,7 +44,7 @@ const UNI_COLORS: Record<string, string> = {
   UNIPAMPA: "#06B6D4",
 };
 
-export function AnalyticsPanel({ data, onSelectTag, theme = "dark" }: AnalyticsPanelProps) {
+export function AnalyticsPanel({ data, theme = "dark" }: AnalyticsPanelProps) {
   const isDark = theme === "dark";
   const [viewMode, setViewMode] = useState<ViewMode>("all");
 
@@ -123,8 +121,7 @@ export function AnalyticsPanel({ data, onSelectTag, theme = "dark" }: AnalyticsP
             { id: "all", label: "Visão Completa", icon: Layers },
             { id: "charts", label: "Gráficos de Distribuição", icon: BarChart3 },
             { id: "network", label: "Grafo de Colaboração", icon: Users },
-            { id: "wordcloud", label: "Nuvem de Tags", icon: Tag },
-            { id: "geomap", label: "Mapa Geográfico", icon: Globe },
+            { id: "geomap", label: "Mapa Geográfico Exato", icon: Globe },
           ].map((tab) => {
             const Icon = tab.icon;
             const isActive = viewMode === tab.id;
@@ -132,7 +129,7 @@ export function AnalyticsPanel({ data, onSelectTag, theme = "dark" }: AnalyticsP
               <button
                 key={tab.id}
                 onClick={() => setViewMode(tab.id as ViewMode)}
-                className={`px-3 py-1.5 rounded-xl text-xs font-bold transition-all duration-200 flex items-center gap-1.5 ${
+                className={`px-3.5 py-1.5 rounded-xl text-xs font-bold transition-all duration-200 flex items-center gap-1.5 ${
                   isActive
                     ? "bg-[#FB6602] text-slate-950 shadow-[0_0_12px_rgba(251,102,2,0.3)]"
                     : isDark
@@ -269,12 +266,7 @@ export function AnalyticsPanel({ data, onSelectTag, theme = "dark" }: AnalyticsP
         <CollaborationNetwork data={data} theme={theme} />
       )}
 
-      {/* 3. SEÇÃO: NUVEM DE PALAVRAS-CHAVE */}
-      {(viewMode === "all" || viewMode === "wordcloud") && (
-        <WordCloudPanel data={data} onSelectTag={onSelectTag} theme={theme} />
-      )}
-
-      {/* 4. SEÇÃO: MAPA GEOGRÁFICO */}
+      {/* 3. SEÇÃO: MAPA GEOGRÁFICO */}
       {(viewMode === "all" || viewMode === "geomap") && (
         <GeoMapPanel data={data} theme={theme} />
       )}
