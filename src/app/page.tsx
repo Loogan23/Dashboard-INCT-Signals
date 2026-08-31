@@ -182,7 +182,14 @@ export default function Home() {
 
         {/* === ABA: ANÁLISE & GRÁFICOS === */}
         {activeTab === "analytics" && (
-          <AnalyticsPanel data={publications} theme={theme} />
+          <AnalyticsPanel
+            data={publications}
+            onSelectTag={(tag) => {
+              updateFilter("tag", tag);
+              setActiveTab("feed");
+            }}
+            theme={theme}
+          />
         )}
 
         {/* === ABA: RELATÓRIOS & EXPORTAÇÃO === */}

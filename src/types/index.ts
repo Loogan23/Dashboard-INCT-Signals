@@ -57,3 +57,44 @@ export const COLORS = {
   border: "#1E3A5F",
   axisColors: ["#FB6602", "#2D82B5", "#06B6D4", "#8B5CF6", "#EC4899", "#F59E0B"],
 } as const;
+
+export interface CollaborationNode {
+  id: string;
+  name: string;
+  fullName: string;
+  city: string;
+  state: string;
+  count: number;
+  color: string;
+  x?: number;
+  y?: number;
+}
+
+export interface CollaborationEdge {
+  source: string;
+  target: string;
+  weight: number;
+  pubTitles: string[];
+}
+
+export interface TagWeight {
+  tag: string;
+  count: number;
+  percentage: number;
+}
+
+export interface GeoLocationNode {
+  id: string;
+  name: string;
+  fullName: string;
+  city: string;
+  stateCountry: string;
+  lat: number;
+  lng: number;
+  x: number; // Porcentagem SVG horizontal
+  y: number; // Porcentagem SVG vertical
+  type: "core" | "international";
+  count: number;
+  color: string;
+}
+
