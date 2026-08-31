@@ -1,36 +1,161 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 📡 Dashboard Interativo do INCT Signals
 
-## Getting Started
+> **INCT Signals:** *Signal Processing, Communications, Sensing & Surveillance*  
+> **Website Oficial:** [https://inct-signals.org](https://inct-signals.org)  
+> **Apoio:** CNPq / CAPES / FUNCAP  
+> **Instituições Parceiras:** UFC (Coordenação Geral), ITA (Vice-Coordenação), UFRGS, PUCRS, UNIPAMPA e Parceiros Internacionais (DLR, CEDRA, UESTC, Skoltech).
 
-First, run the development server:
+---
 
+## 🎯 Sobre o Projeto
+
+O **Dashboard Interativo do INCT Signals** é um painel web moderno, responsivo e de alta performance desenvolvido para catalogar, organizar, analisar e visualizar toda a produção científica da rede nacional de excelência do INCT Signals (mais de 90+ artigos em periódicos internacionais de alto impacto como *IEEE TSP, IEEE TWC, IEEE TVT, IEEE Access, Sensors* e conferências de ponta como *IEEE ICASSP, SAM, ICC, Globecom e SBrT*).
+
+O painel permite cruzar informações entre **Eixos Temáticos**, **Work Packages (WPs)**, **Instituições**, **Autores** e **Anos de Publicação**, facilitando a prestação de contas ao CNPq/CAPES e oferecendo transparência à comunidade científica.
+
+---
+
+## ✨ Principais Funcionalidades
+
+### 1. 📄 Publicações & Busca Multifacetada
+- **Filtros Combinados:** Filtre por Eixo Temático, Work Package (WP1–WP4), Universidade Parceira, Tipo de Veículo (Periódico vs. Conferência) e Ano.
+- **Busca em Tempo Real:** Pesquisa instantânea por título, autor, veículo ou palavra-chave.
+- **Modo Claro & Escuro (Dark/Light Mode):** Interface adaptável com suporte a tema escuro profundo e tema claro.
+
+### 2. 📊 Análise & Gráficos Interativos
+- **Produção Científica Anual:** Evolução temporal da produção de periódicos e conferências.
+- **Distribuição por Eixos Temáticos:** Gráfico de rosca com detalhamento de cada um dos 6 eixos oficiais.
+- **Distribuição por Work Package (WP1–WP4):** Gráfico de barras com legenda explicativa detalhada do escopo de cada WP.
+- **Ranking de Universidades:** Artigos produzidos por cada polo da rede.
+
+### 3. 🕸️ Grafo de Colaboração Interinstitucional
+- **Rede Interativa em SVG:** Visualização das conexões e coautoria direta entre os 5 polos nacionais (**UFC, ITA, UFRGS, PUCRS, UNIPAMPA**).
+- **Detalhamento ao Clicar:** Exibe a quantidade de artigos produzidos em parceria e lista os títulos co-autorados entre duas instituições.
+
+### 4. 💾 Gestão de Citações & Exportação de Relatórios
+- **Cópia em 1-Clique:** Copie referências formatadas em **BibTeX**, **IEEE** e **ABNT**.
+- **Exportação Massiva:** Baixe relatórios consolidados do acervo filtrado nos formatos **BibTeX (`.bib`)** e **CSV (`.csv`)**.
+
+### 5. 🔄 Sincronização Automática de Dados
+- **Botão Sincronizar:** Executa scripts de automação Python (`scripts/sync_publications.py`) para capturar novos artigos diretamente do portal oficial.
+- **Pipeline CI/CD:** Integração via GitHub Actions para atualização contínua e automatizada da base de dados.
+
+---
+
+## 🏷️ Taxonomia do INCT Signals
+
+### 🎯 Eixos Temáticos (6 Eixos Oficiais)
+1. **Comunicações, Processamento de Sinais e Otimização**
+2. **Sensoriamento Remoto e Sistemas de Radar**
+3. **Monitoramento Ambiental e Climático**
+4. **Vigilância de Sinais, Segurança e Confiabilidade**
+5. **Sistemas Autônomos e Inteligentes**
+6. **Caracterização Eletromagnética em Comunicações**
+
+### 📦 Work Packages (4 WPs Estruturantes)
+- **WP1:** *Sensoriamento Remoto & Vigilância por Satélite* (UFC • PUCRS)
+- **WP2:** *Hardware, Antenas & Desenvolvimento RF* (UNIPAMPA • ITA • UFC)
+- **WP3:** *Testbeds & Plataformas para Sensoriamento com VANTs* (UFRGS • ITA • UFC)
+- **WP4:** *Processamento de Sinais para Sensoriamento & Comunicações* (UFC • ITA)
+
+---
+
+## 🛠️ Tecnologias Utilizadas
+
+- **Framework:** [Next.js 16](https://nextjs.org/) (App Router & Turbopack)
+- **Biblioteca UI:** [React 19](https://react.dev/)
+- **Estilização:** [Tailwind CSS v4](https://tailwindcss.com/)
+- **Gráficos:** [Recharts 3](https://recharts.org/)
+- **Ícones:** [Lucide React](https://lucide.dev/)
+- **Linguagem:** [TypeScript 5](https://www.typescriptlang.org/)
+- **Scripting & Automação:** Python 3 (BeautifulSoup, BibtexParser)
+
+---
+
+## 🚀 Como Executar o Projeto Localmente
+
+### Pré-requisitos
+- **Node.js** (v18.0.0 ou superior)
+- **npm** ou **yarn** / **pnpm**
+- **Python 3.10+** (opcional, para rodar scripts de sincronização)
+
+### 1. Clonar o Repositório
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+git clone https://github.com/Loogan23/Dashboard-INCT-Signals.git
+cd Dashboard-INCT-Signals
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+### 2. Instalar as Dependências
+```bash
+npm install
+```
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+### 3. Executar o Servidor de Desenvolvimento
+```bash
+npm run dev
+```
+Abra [http://localhost:3000](http://localhost:3000) no seu navegador.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+### 4. Compilar para Produção (Build)
+```bash
+npm run build
+npm run start
+```
 
-## Learn More
+### 5. Sincronizar Publicações (Script Python)
+```bash
+npm run sync
+# ou diretamente via python
+python scripts/sync_publications.py
+```
 
-To learn more about Next.js, take a look at the following resources:
+---
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## 📁 Estrutura de Pastas
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+```text
+DashboardINCTsignals/
+├── .github/
+│   └── workflows/
+│       └── sync-publications.yml   # Workflow do GitHub Actions para sincronização
+├── public/
+│   ├── data/
+│   │   └── publications.json       # Base de dados estruturada das publicações
+│   └── logo.png                    # Logo oficial do INCT Signals
+├── scripts/
+│   └── sync_publications.py        # Script Python de scraping e sincronização
+├── src/
+│   ├── app/
+│   │   ├── api/sync/               # Endpoint da API Next.js para acionar sincronização
+│   │   ├── layout.tsx              # Layout raiz com fontes e metadados
+│   │   └── page.tsx                # Página principal do Dashboard (Single Page App)
+│   ├── components/
+│   │   ├── AnalyticsPanel.tsx      # Painel de gráficos e visualizações de dados
+│   │   ├── CollaborationNetwork.tsx# Grafo de coautoria interinstitucional em SVG
+│   │   ├── ExportPanel.tsx         # Painel de exportação de relatórios (CSV/BibTeX)
+│   │   ├── FilterSidebar.tsx       # Barra lateral com filtros dinâmicos
+│   │   ├── Header.tsx              # Cabeçalho com abas, botão de sync e modo escuro
+│   │   ├── KPIBar.tsx              # Indicadores de desempenho e contadores
+│   │   └── PublicationCard.tsx     # Card de exibição individual da publicação
+│   ├── hooks/
+│   │   └── useDashboard.ts         # Hook customizado para gestão de estado e filtros
+│   ├── lib/
+│   │   └── data.ts                 # Utilitários de manipulação de dados e ordenação
+│   └── types/
+│       └── index.ts                # Definições de tipos TypeScript do projeto
+├── package.json
+└── README.md
+```
 
-## Deploy on Vercel
+---
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## 🤝 Créditos e Realização
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+Projeto desenvolvido para o **INCT Signals** sob a liderança das universidades integrantes:
+- **Universidade Federal do Ceará (UFC)**
+- **Instituto Tecnológico de Aeronáutica (ITA)**
+- **Universidade Federal do Rio Grande do Sul (UFRGS)**
+- **Pontifícia Universidade Católica do Rio Grande do Sul (PUCRS)**
+- **Universidade Federal do Pampa (UNIPAMPA)**
+
+Parceria institucional e financiamento: **CNPq • CAPES • FUNCAP**
