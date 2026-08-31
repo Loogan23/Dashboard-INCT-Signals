@@ -43,6 +43,13 @@ const UNI_COLORS: Record<string, string> = {
   UNIPAMPA: "#06B6D4",
 };
 
+const WP_META: Record<string, { label: string; color: string }> = {
+  WP1: { label: "Sensoriamento Remoto & Vigilância por Satélite", color: "#8B5CF6" },
+  WP2: { label: "Hardware, Antenas & Desenvolvimento RF", color: "#EC4899" },
+  WP3: { label: "Testbeds & Plataformas para Sensoriamento com VANTs", color: "#06B6D4" },
+  WP4: { label: "Processamento de Sinais para Sensoriamento & Comunicações", color: "#FB6602" },
+};
+
 export function AnalyticsPanel({ data, theme = "dark" }: AnalyticsPanelProps) {
   const isDark = theme === "dark";
   const [viewMode, setViewMode] = useState<ViewMode>("all");
@@ -63,7 +70,11 @@ export function AnalyticsPanel({ data, theme = "dark" }: AnalyticsPanelProps) {
     value,
   }));
 
-  const wpData = Object.entries(wpMap).map(([name, value]) => ({ name, value }));
+  const wpData = Object.entries(wpMap).map(([name, value]) => ({
+    name,
+    fullName: WP_META[name]?.label || name,
+    value,
+  }));
 
   const uniData = Object.entries(uniMap)
     .filter(([, v]) => v > 0)
@@ -213,21 +224,39 @@ export function AnalyticsPanel({ data, theme = "dark" }: AnalyticsPanelProps) {
             {/* Work Packages */}
             <div className={cardCls}>
               <h3 className={titleCls}>📦 Distribuição por Work Package (WP1–WP4)</h3>
-              <ResponsiveContainer width="100%" height={220}>
+              <ResponsiveContainer width="100%" height={200}>
                 <BarChart data={wpData} margin={{ top: 4, right: 4, left: -16, bottom: 4 }}>
                   <XAxis dataKey="name" tick={chartDefaults.tick} />
                   <YAxis tick={chartDefaults.tick} allowDecimals={false} />
                   <Tooltip
                     {...tooltipStyle}
-                    formatter={(value: unknown) => [`${String(value)} publicação(ões)`, "Total"]}
+                    formatter={(value: unknown, _name: unknown, item: { payload?: { fullName?: string } }) => [
+                      `${String(value)} publicação(ões)`,
+                      item?.payload?.fullName || "Total",
+                    ]}
                   />
                   <Bar dataKey="value" name="Publicações" radius={[4, 4, 0, 0]}>
-                    {wpData.map((_, i) => (
-                      <Cell key={i} fill={["#8B5CF6", "#EC4899", "#06B6D4", "#FB6602"][i]} />
+                    {wpData.map((entry, i) => (
+                      <Cell key={i} fill={WP_META[entry.name]?.color || ["#8B5CF6", "#EC4899", "#06B6D4", "#FB6602"][i]} />
                     ))}
                   </Bar>
                 </BarChart>
               </ResponsiveContainer>
+
+              {/* Legenda detalhada explicando cada WP */}
+              <div className={`mt-3 pt-3 border-t grid grid-cols-1 gap-1.5 text-[11px] ${isDark ? "border-[#1E3A5F]" : "border-slate-200"}`}>
+                {Object.entries(WP_META).map(([key, meta]) => (
+                  <div key={key} className="flex items-center gap-2">
+                    <span
+                      className="w-2.5 h-2.5 rounded-full flex-shrink-0"
+                      style={{ backgroundColor: meta.color }}
+                    />
+                    <span className={isDark ? "text-slate-300" : "text-slate-700"}>
+                      <strong className={isDark ? "text-slate-100 font-bold" : "text-slate-900 font-bold"}>{key}:</strong> {meta.label}
+                    </span>
+                  </div>
+                ))}
+              </div>
             </div>
 
             {/* Universidades */}
