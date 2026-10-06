@@ -40,6 +40,7 @@ export function KPIBar({ total, journals, intConfs, natConfs, theme }: KPIBarPro
       icon: <Users className="w-5 h-5" />,
       label: "Conf. Nacionais (SBrT)",
       value: natConfs,
+      badge: "🏆 2 Prêmios",
       color: "text-amber-500",
       bg: isDark ? "bg-amber-500/10" : "bg-amber-50",
     },
@@ -88,12 +89,19 @@ export function KPIBar({ total, journals, intConfs, natConfs, theme }: KPIBarPro
               >
                 {c.label}
               </div>
-              <div
-                className={`text-xl font-bold ${
-                  isDark ? "text-white" : "text-slate-900"
-                }`}
-              >
-                {c.value}
+              <div className="flex items-center gap-1.5 flex-wrap">
+                <div
+                  className={`text-xl font-bold ${
+                    isDark ? "text-white" : "text-slate-900"
+                  }`}
+                >
+                  {c.value}
+                </div>
+                {c.badge && (
+                  <span className="text-[10px] font-black px-1.5 py-0.5 rounded bg-amber-500/20 text-amber-500 border border-amber-500/30">
+                    {c.badge}
+                  </span>
+                )}
               </div>
             </div>
           </div>

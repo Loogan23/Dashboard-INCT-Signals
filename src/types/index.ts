@@ -12,6 +12,7 @@ export interface Publication {
   institutions: string[];
   tags: string[];
   bibtex: string;
+  award?: string;
 }
 
 export type FilterState = {

@@ -16,7 +16,7 @@ import { FilterState } from "@/types";
 type Tab = "feed" | "analytics" | "export";
 
 export default function Home() {
-  const [activeTab, setActiveTab] = useState<Tab>("feed");
+  const [activeTab, setActiveTab] = useState<Tab>("analytics");
   const [theme, setTheme] = useState<"dark" | "light">("dark");
   const [publications, setPublications] = useState(() => getPublications());
 
@@ -35,6 +35,24 @@ export default function Home() {
   const toggleTheme = useCallback(() => {
     setTheme((prev) => (prev === "dark" ? "light" : "dark"));
   }, []);
+
+  const handleNavigateToFeed = useCallback(
+    (param?: string) => {
+      if (param) {
+        if (param.startsWith("pub-")) {
+          const match = publications.find((p) => p.id === param);
+          resetFilters();
+          if (match) {
+            updateFilter("search", match.title);
+          }
+        } else {
+          updateFilter("type", param);
+        }
+      }
+      setActiveTab("feed");
+    },
+    [publications, resetFilters, updateFilter]
+  );
 
   // Recarregar dados após sincronização
   const handleSyncComplete = useCallback(async () => {
@@ -180,9 +198,14 @@ export default function Home() {
           </div>
         )}
 
-        {/* === ABA: ANÁLISE & GRÁFICOS === */}
+        {/* === ABA: ANÁLISE & GRÁFICOS (PÁGINA INICIAL / HOME) === */}
         {activeTab === "analytics" && (
-          <AnalyticsPanel data={publications} theme={theme} />
+          <AnalyticsPanel
+            data={publications}
+            theme={theme}
+            onBibtex={setBibtexModal}
+            onNavigateToFeed={handleNavigateToFeed}
+          />
         )}
 
         {/* === ABA: RELATÓRIOS & EXPORTAÇÃO === */}
