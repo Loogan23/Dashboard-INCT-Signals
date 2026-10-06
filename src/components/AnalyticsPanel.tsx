@@ -16,11 +16,14 @@ import {
 import { Publication } from "@/types";
 import { getAnalyticsData, COLORS } from "@/lib/data";
 import { CollaborationNetwork } from "@/components/CollaborationNetwork";
+import { AwardSpotlight } from "@/components/AwardSpotlight";
 import { BarChart3, Users, Layers } from "lucide-react";
 
 interface AnalyticsPanelProps {
   data: Publication[];
   theme?: "dark" | "light";
+  onBibtex?: (pub: Publication) => void;
+  onNavigateToFeed?: (filter?: string) => void;
 }
 
 type ViewMode = "all" | "charts" | "network";
@@ -50,9 +53,20 @@ const WP_META: Record<string, { label: string; color: string }> = {
   WP4: { label: "Processamento de Sinais para Sensoriamento & Comunicações", color: "#FB6602" },
 };
 
-export function AnalyticsPanel({ data, theme = "dark" }: AnalyticsPanelProps) {
+export function AnalyticsPanel({
+  data,
+  theme = "dark",
+  onBibtex,
+  onNavigateToFeed,
+}: AnalyticsPanelProps) {
   const isDark = theme === "dark";
   const [viewMode, setViewMode] = useState<ViewMode>("all");
+
+  const winningPub = data.find(
+    (p) =>
+      p.id === "pub-001" ||
+      p.title.toLowerCase().includes("flexible intelligent metasurface")
+  );
 
   const { years, yearJournals, yearIntConf, yearNatConf, axisMap, wpMap, uniMap } =
     getAnalyticsData(data);
@@ -107,6 +121,15 @@ export function AnalyticsPanel({ data, theme = "dark" }: AnalyticsPanelProps) {
 
   return (
     <div className="space-y-8">
+      {/* DESTAQUE ESPECIAL: Carrossel de Artigos Premiados no SBrT (2025 e 2026) */}
+      <AwardSpotlight
+        publications={data}
+        pub={winningPub}
+        onBibtex={onBibtex}
+        onNavigateToFeed={onNavigateToFeed}
+        theme={theme}
+      />
+
       {/* Barra de Filtros de Visualização */}
       <div
         className={`p-2 rounded-2xl border flex flex-wrap items-center justify-between gap-3 shadow-md ${

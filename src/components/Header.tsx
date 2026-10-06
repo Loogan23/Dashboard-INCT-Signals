@@ -15,8 +15,8 @@ interface HeaderProps {
 }
 
 const TABS: { id: Tab; icon: string; label: string }[] = [
-  { id: "feed", icon: "📄", label: "Publicações" },
   { id: "analytics", icon: "📊", label: "Análise & Gráficos" },
+  { id: "feed", icon: "📄", label: "Publicações" },
   { id: "export", icon: "💾", label: "Relatórios & Exportar" },
 ];
 
@@ -184,19 +184,26 @@ export function Header({
         </div>
       </div>
 
-      {/* Banner institucional */}
+      {/* Banner institucional & Destaque Premiado SBrT 2026 */}
       <div
         className={`border-t transition-colors duration-300 ${
           isDark
-            ? "border-[#1E3A5F]/40 bg-gradient-to-r from-[#08172D] via-[#0d1f3a] to-[#08172D]"
-            : "border-slate-200 bg-gradient-to-r from-slate-100 via-blue-50/50 to-slate-100"
+            ? "border-[#1E3A5F]/40 bg-gradient-to-r from-[#08172D] via-[#14233c] to-[#08172D]"
+            : "border-slate-200 bg-gradient-to-r from-slate-100 via-amber-50/50 to-slate-100"
         }`}
       >
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-2.5 flex flex-wrap items-center justify-between gap-3">
-          <p className={`text-[11px] ${isDark ? "text-slate-300" : "text-slate-700"}`}>
-            🏆 <strong className="text-amber-500">Prêmio de Melhor Artigo no SBrT 2025</strong> (Estimação de canal assistida por RIS) &middot;{" "}
-            <strong className={isDark ? "text-cyan-400" : "text-blue-600"}>13+ artigos aceitos no SBrT 2026</strong> &middot; Parcerias Internacionais: DLR (Alemanha) · CEDRA · UESTC (China) · Skoltech (Rússia)
-          </p>
+          <div className="flex items-center gap-2 flex-wrap text-[11px]">
+            <span className="inline-flex items-center gap-1 px-2.5 py-0.5 rounded-full font-black uppercase bg-amber-500/20 text-amber-400 border border-amber-500/40 text-[10px]">
+              🏆 Prêmios SBrT 2025 &amp; 2026
+            </span>
+            <p className={isDark ? "text-slate-200" : "text-slate-800"}>
+              <strong className="text-amber-400 font-bold">Bicampeonato em Melhores Artigos:</strong>{" "}
+              <span>SBrT 2026 (Metassuperfícies Flexíveis · Salvador/BA)</span> &middot;{" "}
+              <span>SBrT 2025 (Modelagem Circuital de RIS · Natal/RN)</span> &middot;{" "}
+              <span className={isDark ? "text-slate-400" : "text-slate-600"}>LASP / INCT Signals</span>
+            </p>
+          </div>
           <div className="flex items-center gap-1.5 text-[10px] font-bold">
             {["UFC", "ITA", "UFRGS", "PUCRS", "UNIPAMPA"].map((uni) => (
               <span

@@ -221,6 +221,14 @@ def assign_metadata(item):
     bibtex += f"  year = {{{item['year']}}}\n"
     bibtex += "}"
     
+    if "flexible intelligent metasurface" in item["title"].lower() and item.get("year") == 2026:
+        item["award"] = "🏆 Prêmio de Melhor Artigo em Telecomunicações (Best Paper Award) — SBrT 2026"
+        item["status"] = "Publicado"
+    elif "circuit-based modeling approach" in item["title"].lower() and item.get("year") == 2025:
+        item["award"] = "🏆 Prêmio de Melhor Artigo em Comunicações (Best Paper Award) — SBrT 2025"
+        item["venue"] = "Anais do XLIII Simpósio Brasileiro de Telecomunicações e Processamento de Sinais (SBrT 2025), Natal, RN, 2025."
+        item["link"] = "https://inct-signals.org/participacao-do-lasp-e-do-inct-signals-no-sbrt-2025"
+
     item["bibtex"] = bibtex
 
 def sync():
@@ -246,11 +254,12 @@ def sync():
     # 1. Fetch Journals from site
     html_j = fetch_url("https://inct-signals.org/artigos-em-periodicos")
     if html_j:
-        pos_j = html_j.find('const publicacoes = [')
+        html_j_clean = html.unescape(html_j).replace('\\n', '\n').replace('\\t', '\t').replace('\\"', '"').replace("\\'", "'")
+        pos_j = html_j_clean.find('const publicacoes = [')
         if pos_j != -1:
-            end_j = html_j.find('];', pos_j)
-            js_sub = html_j[pos_j:end_j]
-            matches = re.findall(r'\{\s*year:\s*(\d+),\s*textBefore:\s*[\'"](.*?)[\'"],\s*title:\s*[\'"](.*?)[\'"],\s*link:\s*(.*?),\s*textAfter:\s*[\'"](.*?)[\'"]\s*\}', js_sub)
+            end_j = html_j_clean.find('];', pos_j)
+            js_sub = html_j_clean[pos_j:end_j]
+            matches = re.findall(r'\{\s*year:\s*(\d+),\s*textBefore:\s*[\'\"“](.*?)[\'\"”],\s*title:\s*[\'\"“](.*?)[\'\"”],\s*link:\s*(.*?),\s*textAfter:\s*[\'\"“](.*?)[\'\"”]\s*\}', js_sub)
             print(f"Publicações em periódicos encontradas no site: {len(matches)}")
             for yr, tb, ti, lk, ta in matches:
                 yr = int(yr)

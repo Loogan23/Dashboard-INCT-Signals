@@ -1,7 +1,7 @@
 "use client";
 
 import { Publication } from "@/types";
-import { ExternalLink, Quote, CheckCircle, Clock, Send } from "lucide-react";
+import { ExternalLink, Quote, CheckCircle, Clock, Send, Trophy, Award } from "lucide-react";
 
 interface PublicationCardProps {
   pub: Publication;
@@ -48,14 +48,45 @@ export function PublicationCard({ pub, onBibtex, theme = "dark" }: PublicationCa
     }
   };
 
+  const hasAward = Boolean(pub.award);
+
   return (
     <article
-      className={`p-4.5 rounded-2xl border transition-all duration-300 shadow-md space-y-3 ${
-        isDark
+      className={`p-4.5 rounded-2xl border transition-all duration-300 shadow-md space-y-3 relative overflow-hidden ${
+        hasAward
+          ? isDark
+            ? "bg-gradient-to-br from-amber-500/10 via-[#0F233F] to-[#0F233F] border-amber-500/70 ring-2 ring-amber-400/50 shadow-[0_0_30px_rgba(245,158,11,0.22)]"
+            : "bg-gradient-to-br from-amber-50 via-white to-white border-amber-400 ring-2 ring-amber-400/60 shadow-amber-200/60"
+          : isDark
           ? "bg-[#0F233F] border-[#1E3A5F] hover:border-[#2D82B5]/60"
           : "bg-white border-slate-300 hover:border-[#2D82B5] shadow-slate-200/70"
       }`}
     >
+      {/* Banner de Premiação / Destaque Especial */}
+      {pub.award && (
+        <div
+          className={`flex items-center justify-between gap-2 px-3 py-1.5 rounded-xl border text-xs font-bold ${
+            isDark
+              ? "bg-amber-500/20 text-amber-300 border-amber-500/40"
+              : "bg-amber-100 text-amber-950 border-amber-300"
+          }`}
+        >
+          <div className="flex items-center gap-1.5 flex-wrap">
+            <Trophy className="w-4 h-4 text-amber-500 animate-bounce" />
+            <span className="font-extrabold tracking-wide text-xs">
+              {pub.award}
+            </span>
+          </div>
+          <span
+            className={`text-[10px] px-2 py-0.5 rounded font-black uppercase ${
+              isDark ? "bg-amber-500/30 text-amber-200" : "bg-amber-200 text-amber-950"
+            }`}
+          >
+            Destaque Especial
+          </span>
+        </div>
+      )}
+
       {/* Linha Superior: Tipo, Ano, Status, Instituições */}
       <div className="flex flex-wrap items-center justify-between gap-2 text-xs">
         <div className="flex items-center gap-2 flex-wrap">
@@ -138,6 +169,46 @@ export function PublicationCard({ pub, onBibtex, theme = "dark" }: PublicationCa
         <span className="text-slate-500 mr-1">📖</span>
         {pub.venue}
       </p>
+
+      {/* Detalhe exclusivo para o artigo vencedor SBrT 2026 */}
+      {pub.id === "pub-001" && (
+        <div
+          className={`p-3 rounded-xl border text-xs leading-relaxed space-y-1 ${
+            isDark
+              ? "bg-[#0b1d38]/90 border-amber-500/30 text-slate-200"
+              : "bg-amber-50/90 border-amber-200 text-slate-900"
+          }`}
+        >
+          <div className="flex items-center gap-1.5 font-bold text-amber-500">
+            <Award className="w-3.5 h-3.5" />
+            <span>Destaque de Premiação no SBrT 2026:</span>
+          </div>
+          <p className="text-[11px]">
+            Trabalho premiado no <strong>XLIV SBrT 2026 (Salvador/BA)</strong> na categoria <strong>Telecomunicações</strong>.
+            Primeiro autor <strong>Vinícius Lopes Romano</strong> (Bolsista de Iniciação Científica - UFC), orientado pelo <strong>Prof. André L. F. de Almeida</strong> (Coord. LASP &amp; INCT-Signals) em coautoria com o <strong>Prof. Daniel C. Araújo</strong> (UnB).
+          </p>
+        </div>
+      )}
+
+      {/* Detalhe exclusivo para o artigo vencedor SBrT 2025 */}
+      {pub.id === "pub-040" && (
+        <div
+          className={`p-3 rounded-xl border text-xs leading-relaxed space-y-1 ${
+            isDark
+              ? "bg-[#0b1d38]/90 border-amber-500/30 text-slate-200"
+              : "bg-amber-50/90 border-amber-200 text-slate-900"
+          }`}
+        >
+          <div className="flex items-center gap-1.5 font-bold text-amber-500">
+            <Award className="w-3.5 h-3.5" />
+            <span>Destaque de Premiação no SBrT 2025:</span>
+          </div>
+          <p className="text-[11px]">
+            Trabalho premiado no <strong>XLIII SBrT 2025 (Natal/RN)</strong> na categoria <strong>Comunicações</strong>.
+            Autoria de <strong>Daniel C. Alcântara, Daniel V. C. de Oliveira, Dr. Gilderlan T. de Araújo, Prof. Paulo R. B. Gomes</strong> e <strong>Prof. André L. F. de Almeida</strong> (LASP / UFC).
+          </p>
+        </div>
+      )}
 
       {/* Linha Inferior: Eixos/Tags + Botões de Ação */}
       <div
