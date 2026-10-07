@@ -135,7 +135,7 @@ const SLIDES_DATA: AwardSlide[] = [
   booktitle = {Anais do XLIII Simpósio Brasileiro de Telecomunicações e Processamento de Sinais (SBrT 2025), Natal, RN},
   year = {2025}
 }`,
-    pubId: "pub-040",
+    pubId: "pub-002",
   },
 ];
 
@@ -154,10 +154,13 @@ export function AwardSpotlight({
   const slides = useMemo(() => {
     // Sincroniza com dados reais de publications se disponíveis
     return SLIDES_DATA.map((slide) => {
-      const match = publications.find((p) => p.id === slide.pubId);
+      const match = publications.find(
+        (p) => p.id === slide.pubId || (p.year === slide.year && !!p.award)
+      );
       if (match) {
         return {
           ...slide,
+          pubId: match.id,
           title: match.title || slide.title,
           venue: match.venue || slide.venue,
           bibtex: match.bibtex || slide.bibtex,
@@ -187,7 +190,9 @@ export function AwardSpotlight({
   }, [slides.length]);
 
   const handleCopyBibtex = () => {
-    const pubObj = publications.find((p) => p.id === currentSlide.pubId);
+    const pubObj = publications.find(
+      (p) => p.id === currentSlide.pubId || (p.year === currentSlide.year && !!p.award)
+    );
     if (pubObj && onBibtex) {
       onBibtex(pubObj);
       return;
