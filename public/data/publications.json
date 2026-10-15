@@ -54,34 +54,298 @@
   {
     "id": "pub-003",
     "type": "Conferência Nacional (SBrT)",
-    "title": "A convolutional neural network for acoustic-based intensity rainfall detection in the Amazon rainforest",
-    "authors": "F. B. A. Cavalcante, R. V. de O. Paiva, R. S. Xavier, T. F. Maciel, and M. Gosset",
-    "venue": "XLIV Simpósio Brasileiro de Telecomunicações e Processamento de Sinais (SBrT 2026) (SBrT 2026), (Salvador, Brazil), p. 5, Sept. 2026.",
+    "title": "Square DRA with orthogonal slot excitation and impedance matching for GPS L1 applications",
+    "authors": "H. R. S. Rodrigues, E. R. Schlosser, J. M. Vieira and M. V. T. Heckler",
+    "venue": "XLIV Simpósio Brasileiro de Telecomunicações e Processamento de Sinais (SBrT), Salvador, BA, Brazil, Oct. 2026.",
     "year": 2026,
     "status": "Publicado",
     "link": null,
     "thematic_axes": [
-      "Monitoramento Ambiental e Climático"
+      "Comunicações, Processamento de Sinais e Otimização"
     ],
     "work_packages": [
       "WP4"
     ],
     "institutions": [
-      "UFC"
+      "UFC",
+      "UNIPAMPA"
     ],
     "tags": [
       "MIMO & Processamento de Sinais",
-      "IA & Aprendizado de Máquina",
-      "Sensoriamento Ambiental"
+      "GNSS & Navegação"
     ],
-    "bibtex": "@inproceedings{cavalcante2026convolutional,\n  author = {F. B. A. Cavalcante, R. V. de O. Paiva, R. S. Xavier, T. F. Maciel, and M. Gosset},\n  title = {A convolutional neural network for acoustic-based intensity rainfall detection in the Amazon rainforest},\n  booktitle = {XLIV Simpósio Brasileiro de Telecomunicações e Processamento de Sinais (SBrT 2026) (SBrT 2026), (Salvador, Brazil), p. 5, Sept. 2026.},\n  year = {2026}\n}"
+    "bibtex": "@inproceedings{rodrigues2026square,\n  author = {H. R. S. Rodrigues, E. R. Schlosser, J. M. Vieira and M. V. T. Heckler},\n  title = {Square DRA with orthogonal slot excitation and impedance matching for GPS L1 applications},\n  booktitle = {XLIV Simpósio Brasileiro de Telecomunicações e Processamento de Sinais (SBrT), Salvador, BA, Brazil, Oct. 2026.},\n  year = {2026}\n}"
   },
   {
     "id": "pub-004",
     "type": "Conferência Nacional (SBrT)",
-    "title": "A machine learning framework for acoustic rainfall classification applied to two distinct soundscapes",
-    "authors": "Afonso F. Fernandes, Giovanni G. R. Milan, Tarcisio F. Maciel, Rodrigo S. Xavier, Evandro M. Anselmo, M. Thereza R. Chaves and Marielle Gosset",
-    "venue": "XLIV Simpósio Brasileiro de Telecomunicações e Processamento de Sinais (SBrT 2026) (SBrT 2026), (Salvador, Brazil), p. 5, Sept. 2026.",
+    "title": "AoA estimation using hybrid phase-amplitude interferometry for LEO spaceborne SDR systems",
+    "authors": "R. dos S. S. da Cruz, V. C. M. N. Leite, F. Antreich, and O. Coutinho",
+    "venue": "Proc. XLIV Simpósio Brasileiro de Telecomunicações e Processamento de Sinais (SBrT), Salvador, BA, Brazil, Oct. 2026.",
+    "year": 2026,
+    "status": "Publicado",
+    "link": null,
+    "thematic_axes": [
+      "Comunicações, Processamento de Sinais e Otimização"
+    ],
+    "work_packages": [
+      "WP1",
+      "WP2"
+    ],
+    "institutions": [
+      "ITA"
+    ],
+    "tags": [
+      "MIMO & Processamento de Sinais",
+      "Satélites & Comunicação Espacial"
+    ],
+    "bibtex": "@inproceedings{cruz2026estimation,\n  author = {R. dos S. S. da Cruz, V. C. M. N. Leite, F. Antreich, and O. Coutinho},\n  title = {AoA estimation using hybrid phase-amplitude interferometry for LEO spaceborne SDR systems},\n  booktitle = {Proc. XLIV Simpósio Brasileiro de Telecomunicações e Processamento de Sinais (SBrT), Salvador, BA, Brazil, Oct. 2026.},\n  year = {2026}\n}"
+  },
+  {
+    "id": "pub-005",
+    "type": "Conferência Nacional (SBrT)",
+    "title": "Direction finding with MUSIC using circularly polarized fields",
+    "authors": "L. S. Pereira, J. M. Vieira, M. V. T. Heckler, and F. Antreich",
+    "venue": "Proc. XLIV Simpósio Brasileiro de Telecomunicações e Processamento de Sinais (SBrT), Salvador, BA, Brazil, Oct. 2026.",
+    "year": 2026,
+    "status": "Publicado",
+    "link": null,
+    "thematic_axes": [
+      "Comunicações, Processamento de Sinais e Otimização"
+    ],
+    "work_packages": [
+      "WP4"
+    ],
+    "institutions": [
+      "ITA",
+      "UNIPAMPA"
+    ],
+    "tags": [
+      "MIMO & Processamento de Sinais"
+    ],
+    "bibtex": "@inproceedings{pereira2026direction,\n  author = {L. S. Pereira, J. M. Vieira, M. V. T. Heckler, and F. Antreich},\n  title = {Direction finding with MUSIC using circularly polarized fields},\n  booktitle = {Proc. XLIV Simpósio Brasileiro de Telecomunicações e Processamento de Sinais (SBrT), Salvador, BA, Brazil, Oct. 2026.},\n  year = {2026}\n}"
+  },
+  {
+    "id": "pub-006",
+    "type": "Conferência Nacional (SBrT)",
+    "title": "Fine-tuned YOLOv26 for automated detection of radio signals in spectrograms",
+    "authors": "E. S. Flores, P. R. B. da Silva, R. de L. Florindo, R. V. Pacelli, V. I. A. de Medeiros, E. Delgado, F. S. Lobão, M. Nunes, D. I. Alves, F. Antreich, and R. Machado",
+    "venue": "Proc. XLIV Simpósio Brasileiro de Telecomunicações e Processamento de Sinais (SBrT), Salvador, BA, Brazil, Oct. 2026.",
+    "year": 2026,
+    "status": "Publicado",
+    "link": null,
+    "thematic_axes": [
+      "Comunicações, Processamento de Sinais e Otimização"
+    ],
+    "work_packages": [
+      "WP4"
+    ],
+    "institutions": [
+      "ITA",
+      "UNIPAMPA"
+    ],
+    "tags": [
+      "MIMO & Processamento de Sinais"
+    ],
+    "bibtex": "@inproceedings{flores2026finetuned,\n  author = {E. S. Flores, P. R. B. da Silva, R. de L. Florindo, R. V. Pacelli, V. I. A. de Medeiros, E. Delgado, F. S. Lobão, M. Nunes, D. I. Alves, F. Antreich, and R. Machado},\n  title = {Fine-tuned YOLOv26 for automated detection of radio signals in spectrograms},\n  booktitle = {Proc. XLIV Simpósio Brasileiro de Telecomunicações e Processamento de Sinais (SBrT), Salvador, BA, Brazil, Oct. 2026.},\n  year = {2026}\n}"
+  },
+  {
+    "id": "pub-007",
+    "type": "Conferência Nacional (SBrT)",
+    "title": "Imbalance-aware MobileNet for automated classification of radio technologies in spectrograms",
+    "authors": "E. S. Flores, P. R. B. da Silva, R. de L. Florindo, R. V. Pacelli, F. J. de Souza, E. Delgado, F. S. Lobão, M. Nunes, D. I. Alves, F. Antreich, and R. Machado",
+    "venue": "Proc. XLIV Simpósio Brasileiro de Telecomunicações e Processamento de Sinais (SBrT), Salvador, BA, Brazil, Oct. 2026.",
+    "year": 2026,
+    "status": "Publicado",
+    "link": null,
+    "thematic_axes": [
+      "Sistemas Autônomos e Inteligentes"
+    ],
+    "work_packages": [
+      "WP4"
+    ],
+    "institutions": [
+      "ITA",
+      "UNIPAMPA"
+    ],
+    "tags": [
+      "MIMO & Processamento de Sinais",
+      "IA & Aprendizado de Máquina"
+    ],
+    "bibtex": "@inproceedings{flores2026imbalanceaware,\n  author = {E. S. Flores, P. R. B. da Silva, R. de L. Florindo, R. V. Pacelli, F. J. de Souza, E. Delgado, F. S. Lobão, M. Nunes, D. I. Alves, F. Antreich, and R. Machado},\n  title = {Imbalance-aware MobileNet for automated classification of radio technologies in spectrograms},\n  booktitle = {Proc. XLIV Simpósio Brasileiro de Telecomunicações e Processamento de Sinais (SBrT), Salvador, BA, Brazil, Oct. 2026.},\n  year = {2026}\n}"
+  },
+  {
+    "id": "pub-008",
+    "type": "Conferência Nacional (SBrT)",
+    "title": "Avaliação comparativa de algoritmos STAP-CFAR para detecção em cenários marítimos com clutter K-distribuído",
+    "authors": "J. V. A. Rocha, D. I. Alves, K. C. C. O. Senhorini, H. L. M. Schottz, and V. M. L. Paixão",
+    "venue": "Proc. XLIV Simpósio Brasileiro de Telecomunicações e Processamento de Sinais (SBrT), Salvador, BA, Brazil, Oct. 2026.",
+    "year": 2026,
+    "status": "Publicado",
+    "link": null,
+    "thematic_axes": [
+      "Comunicações, Processamento de Sinais e Otimização"
+    ],
+    "work_packages": [
+      "WP4"
+    ],
+    "institutions": [
+      "UFC"
+    ],
+    "tags": [
+      "MIMO & Processamento de Sinais"
+    ],
+    "bibtex": "@inproceedings{rocha2026avaliação,\n  author = {J. V. A. Rocha, D. I. Alves, K. C. C. O. Senhorini, H. L. M. Schottz, and V. M. L. Paixão},\n  title = {Avaliação comparativa de algoritmos STAP-CFAR para detecção em cenários marítimos com clutter K-distribuído},\n  booktitle = {Proc. XLIV Simpósio Brasileiro de Telecomunicações e Processamento de Sinais (SBrT), Salvador, BA, Brazil, Oct. 2026.},\n  year = {2026}\n}"
+  },
+  {
+    "id": "pub-009",
+    "type": "Conferência Nacional (SBrT)",
+    "title": "Decomposição do desempenho de redes móveis via redes neurais monotônicas q-exponenciais",
+    "authors": "J. V. R. Negri, M. I. C. Domingues, P. R. B. da Silva, G. L. E. Pedro, E. S. Flores, D. I. Alves, R. Machado, D. L. Penha, and P. R. S. Marcos",
+    "venue": "Proc. XLIV Simpósio Brasileiro de Telecomunicações e Processamento de Sinais (SBrT), Salvador, BA, Brazil, Oct. 2026.",
+    "year": 2026,
+    "status": "Publicado",
+    "link": null,
+    "thematic_axes": [
+      "Comunicações, Processamento de Sinais e Otimização"
+    ],
+    "work_packages": [
+      "WP4"
+    ],
+    "institutions": [
+      "UNIPAMPA"
+    ],
+    "tags": [
+      "MIMO & Processamento de Sinais"
+    ],
+    "bibtex": "@inproceedings{negri2026decomposição,\n  author = {J. V. R. Negri, M. I. C. Domingues, P. R. B. da Silva, G. L. E. Pedro, E. S. Flores, D. I. Alves, R. Machado, D. L. Penha, and P. R. S. Marcos},\n  title = {Decomposição do desempenho de redes móveis via redes neurais monotônicas q-exponenciais},\n  booktitle = {Proc. XLIV Simpósio Brasileiro de Telecomunicações e Processamento de Sinais (SBrT), Salvador, BA, Brazil, Oct. 2026.},\n  year = {2026}\n}"
+  },
+  {
+    "id": "pub-010",
+    "type": "Conferência Nacional (SBrT)",
+    "title": "Log-domain statistical modeling of S-band rain clutter for surveillance radar applications",
+    "authors": "N. S. de Farias Neto, R. Machado, L. G. F. Pralon, and B. Pompeo",
+    "venue": "Proc. XLIV Simpósio Brasileiro de Telecomunicações e Processamento de Sinais (SBrT), Salvador, BA, Brazil, Sep. 2026.",
+    "year": 2026,
+    "status": "Publicado",
+    "link": null,
+    "thematic_axes": [
+      "Sensoriamento Remoto e Sistemas de Radar"
+    ],
+    "work_packages": [
+      "WP4"
+    ],
+    "institutions": [
+      "UFC"
+    ],
+    "tags": [
+      "Radar / SAR",
+      "MIMO & Processamento de Sinais",
+      "Sensoriamento Ambiental"
+    ],
+    "bibtex": "@inproceedings{neto2026logdomain,\n  author = {N. S. de Farias Neto, R. Machado, L. G. F. Pralon, and B. Pompeo},\n  title = {Log-domain statistical modeling of S-band rain clutter for surveillance radar applications},\n  booktitle = {Proc. XLIV Simpósio Brasileiro de Telecomunicações e Processamento de Sinais (SBrT), Salvador, BA, Brazil, Sep. 2026.},\n  year = {2026}\n}"
+  },
+  {
+    "id": "pub-011",
+    "type": "Conferência Nacional (SBrT)",
+    "title": "Avaliação adaptiva de sensores radar com emulação de sinais em tempo real",
+    "authors": "F. Ivo, W. R. Munduruca, L. P. Amaro, M. A. de Almeida Fidos Jr., D. I. Alves, and R. Machado",
+    "venue": "Proc. XLIV Simpósio Brasileiro de Telecomunicações e Processamento de Sinais (SBrT), Salvador, BA, Brazil, Sep. 2026.",
+    "year": 2026,
+    "status": "Publicado",
+    "link": null,
+    "thematic_axes": [
+      "Sensoriamento Remoto e Sistemas de Radar"
+    ],
+    "work_packages": [
+      "WP4"
+    ],
+    "institutions": [
+      "UFC"
+    ],
+    "tags": [
+      "Radar / SAR",
+      "MIMO & Processamento de Sinais"
+    ],
+    "bibtex": "@inproceedings{ivo2026avaliação,\n  author = {F. Ivo, W. R. Munduruca, L. P. Amaro, M. A. de Almeida Fidos Jr., D. I. Alves, and R. Machado},\n  title = {Avaliação adaptiva de sensores radar com emulação de sinais em tempo real},\n  booktitle = {Proc. XLIV Simpósio Brasileiro de Telecomunicações e Processamento de Sinais (SBrT), Salvador, BA, Brazil, Sep. 2026.},\n  year = {2026}\n}"
+  },
+  {
+    "id": "pub-012",
+    "type": "Conferência Nacional (SBrT)",
+    "title": "A GNN-based framework for multi-objective telecommunications quality ranking",
+    "authors": "G. L. E. Pedro, P. R. B. da Silva, D. I. Alves, J. V. R. Negri, A. C. M. Barcella, R. Machado, K. de A. Lima, and P. R. S. Marcos",
+    "venue": "Proc. XLIV Simpósio Brasileiro de Telecomunicações e Processamento de Sinais (SBrT), Salvador, BA, Brazil, Sep. 2026.",
+    "year": 2026,
+    "status": "Publicado",
+    "link": null,
+    "thematic_axes": [
+      "Comunicações, Processamento de Sinais e Otimização"
+    ],
+    "work_packages": [
+      "WP4"
+    ],
+    "institutions": [
+      "UNIPAMPA"
+    ],
+    "tags": [
+      "MIMO & Processamento de Sinais"
+    ],
+    "bibtex": "@inproceedings{pedro2026gnnbased,\n  author = {G. L. E. Pedro, P. R. B. da Silva, D. I. Alves, J. V. R. Negri, A. C. M. Barcella, R. Machado, K. de A. Lima, and P. R. S. Marcos},\n  title = {A GNN-based framework for multi-objective telecommunications quality ranking},\n  booktitle = {Proc. XLIV Simpósio Brasileiro de Telecomunicações e Processamento de Sinais (SBrT), Salvador, BA, Brazil, Sep. 2026.},\n  year = {2026}\n}"
+  },
+  {
+    "id": "pub-013",
+    "type": "Conferência Nacional (SBrT)",
+    "title": "Integrating QoS indicators and consumer complaints for mobile monitoring",
+    "authors": "J. P. F. de Lima, L. T. de Fontes, K. de A. Lima, J. S. Azevedo, D. I. Alves, P. R. B. da Silva, R. Machado, and S. N. de C. Leite",
+    "venue": "Proc. XLIV Simpósio Brasileiro de Telecomunicações e Processamento de Sinais (SBrT), Salvador, BA, Brazil, Sep. 2026.",
+    "year": 2026,
+    "status": "Publicado",
+    "link": null,
+    "thematic_axes": [
+      "Sistemas Autônomos e Inteligentes"
+    ],
+    "work_packages": [
+      "WP4"
+    ],
+    "institutions": [
+      "UNIPAMPA"
+    ],
+    "tags": [
+      "MIMO & Processamento de Sinais"
+    ],
+    "bibtex": "@inproceedings{lima2026integrating,\n  author = {J. P. F. de Lima, L. T. de Fontes, K. de A. Lima, J. S. Azevedo, D. I. Alves, P. R. B. da Silva, R. Machado, and S. N. de C. Leite},\n  title = {Integrating QoS indicators and consumer complaints for mobile monitoring},\n  booktitle = {Proc. XLIV Simpósio Brasileiro de Telecomunicações e Processamento de Sinais (SBrT), Salvador, BA, Brazil, Sep. 2026.},\n  year = {2026}\n}"
+  },
+  {
+    "id": "pub-014",
+    "type": "Conferência Nacional (SBrT)",
+    "title": "Framework de IA Explicável com indicadores de QoS de Telecomunicações e socioeconômicos para classificação e Caracterização de municípios",
+    "authors": "M. A. de Almeida Fidos Jr., F. Ivo, P. R. B. da Silva, S. Leite, L. P. Amaro, K. de A. Lima, and R. Machado",
+    "venue": "Proc. XLIV Simpósio Brasileiro de Telecomunicações e Processamento de Sinais (SBrT), Salvador, BA, Brazil, Sep. 2026.",
+    "year": 2026,
+    "status": "Publicado",
+    "link": null,
+    "thematic_axes": [
+      "Comunicações, Processamento de Sinais e Otimização"
+    ],
+    "work_packages": [
+      "WP4"
+    ],
+    "institutions": [
+      "UFC",
+      "UNIPAMPA"
+    ],
+    "tags": [
+      "MIMO & Processamento de Sinais",
+      "IA & Aprendizado de Máquina"
+    ],
+    "bibtex": "@inproceedings{jr.2026framework,\n  author = {M. A. de Almeida Fidos Jr., F. Ivo, P. R. B. da Silva, S. Leite, L. P. Amaro, K. de A. Lima, and R. Machado},\n  title = {Framework de IA Explicável com indicadores de QoS de Telecomunicações e socioeconômicos para classificação e Caracterização de municípios},\n  booktitle = {Proc. XLIV Simpósio Brasileiro de Telecomunicações e Processamento de Sinais (SBrT), Salvador, BA, Brazil, Sep. 2026.},\n  year = {2026}\n}"
+  },
+  {
+    "id": "pub-015",
+    "type": "Conferência Nacional (SBrT)",
+    "title": "A convolutional neural network for acoustic-based intensity rainfall detection in the Amazon rainforest",
+    "authors": "F. B. A. Cavalcante, R. V. de O. Paiva, R. S. Xavier, T. F. Maciel, and M. Gosset",
+    "venue": "XLIV Simpósio Brasileiro de Telecomunicações e Processamento de Sinais (SBrT 2026), (Salvador, Brazil), p. 5, Sept. 2026.",
     "year": 2026,
     "status": "Publicado",
     "link": null,
@@ -99,14 +363,39 @@
       "IA & Aprendizado de Máquina",
       "Sensoriamento Ambiental"
     ],
-    "bibtex": "@inproceedings{fernandes2026machine,\n  author = {Afonso F. Fernandes, Giovanni G. R. Milan, Tarcisio F. Maciel, Rodrigo S. Xavier, Evandro M. Anselmo, M. Thereza R. Chaves and Marielle Gosset},\n  title = {A machine learning framework for acoustic rainfall classification applied to two distinct soundscapes},\n  booktitle = {XLIV Simpósio Brasileiro de Telecomunicações e Processamento de Sinais (SBrT 2026) (SBrT 2026), (Salvador, Brazil), p. 5, Sept. 2026.},\n  year = {2026}\n}"
+    "bibtex": "@inproceedings{cavalcante2026convolutional,\n  author = {F. B. A. Cavalcante, R. V. de O. Paiva, R. S. Xavier, T. F. Maciel, and M. Gosset},\n  title = {A convolutional neural network for acoustic-based intensity rainfall detection in the Amazon rainforest},\n  booktitle = {XLIV Simpósio Brasileiro de Telecomunicações e Processamento de Sinais (SBrT 2026), (Salvador, Brazil), p. 5, Sept. 2026.},\n  year = {2026}\n}"
   },
   {
-    "id": "pub-005",
+    "id": "pub-016",
+    "type": "Conferência Nacional (SBrT)",
+    "title": "A machine learning framework for acoustic rainfall classification applied to two distinct soundscapes",
+    "authors": "Afonso F. Fernandes, Giovanni G. R. Milan, Tarcisio F. Maciel, Rodrigo S. Xavier, Evandro M. Anselmo, M. Thereza R. Chaves and Marielle Gosset",
+    "venue": "XLIV Simpósio Brasileiro de Telecomunicações e Processamento de Sinais (SBrT 2026), (Salvador, Brazil), p. 5, Sept. 2026.",
+    "year": 2026,
+    "status": "Publicado",
+    "link": null,
+    "thematic_axes": [
+      "Monitoramento Ambiental e Climático"
+    ],
+    "work_packages": [
+      "WP4"
+    ],
+    "institutions": [
+      "UFC"
+    ],
+    "tags": [
+      "MIMO & Processamento de Sinais",
+      "IA & Aprendizado de Máquina",
+      "Sensoriamento Ambiental"
+    ],
+    "bibtex": "@inproceedings{fernandes2026machine,\n  author = {Afonso F. Fernandes, Giovanni G. R. Milan, Tarcisio F. Maciel, Rodrigo S. Xavier, Evandro M. Anselmo, M. Thereza R. Chaves and Marielle Gosset},\n  title = {A machine learning framework for acoustic rainfall classification applied to two distinct soundscapes},\n  booktitle = {XLIV Simpósio Brasileiro de Telecomunicações e Processamento de Sinais (SBrT 2026), (Salvador, Brazil), p. 5, Sept. 2026.},\n  year = {2026}\n}"
+  },
+  {
+    "id": "pub-017",
     "type": "Conferência Nacional (SBrT)",
     "title": "Tensor decomposition-based feature extraction for EEG signals in epileptic seizure detection",
     "authors": "R. V. de Oliveira Paiva, A. Manina, T. Ferreira Maciel, and M. Haardt",
-    "venue": "XLIV Simpósio Brasileiro de Telecomunicações e Processamento de Sinais (SBrT 2026) (SBrT 2026), (Salvador, Brazil), p. 5, Sept. 2026.",
+    "venue": "XLIV Simpósio Brasileiro de Telecomunicações e Processamento de Sinais (SBrT 2026), (Salvador, Brazil), p. 5, Sept. 2026.",
     "year": 2026,
     "status": "Publicado",
     "link": null,
@@ -125,13 +414,13 @@
       "Métodos Tensoriais",
       "IA & Aprendizado de Máquina"
     ],
-    "bibtex": "@inproceedings{paiva2026tensor,\n  author = {R. V. de Oliveira Paiva, A. Manina, T. Ferreira Maciel, and M. Haardt},\n  title = {Tensor decomposition-based feature extraction for EEG signals in epileptic seizure detection},\n  booktitle = {XLIV Simpósio Brasileiro de Telecomunicações e Processamento de Sinais (SBrT 2026) (SBrT 2026), (Salvador, Brazil), p. 5, Sept. 2026.},\n  year = {2026}\n}"
+    "bibtex": "@inproceedings{paiva2026tensor,\n  author = {R. V. de Oliveira Paiva, A. Manina, T. Ferreira Maciel, and M. Haardt},\n  title = {Tensor decomposition-based feature extraction for EEG signals in epileptic seizure detection},\n  booktitle = {XLIV Simpósio Brasileiro de Telecomunicações e Processamento de Sinais (SBrT 2026), (Salvador, Brazil), p. 5, Sept. 2026.},\n  year = {2026}\n}"
   },
   {
-    "id": "pub-006",
+    "id": "pub-018",
     "type": "Conferência Nacional (SBrT)",
     "title": "User-Centric Clustering and Power Control in Cell-Free Networks with Dynamic TDD",
-    "authors": "M.D. Carneiro, S. S. Silva, I. M. Guerreiro, Y. C. B. Silva, V. F. Monteiro",
+    "authors": "M. D. Carneiro, S. S. Silva, I. M. Guerreiro, Y. C. B. Silva, V. F. Monteiro",
     "venue": "Proceedings of the XLIV Brazilian Telecommunications and Signal Processing Symposium (SBrT), 2026.",
     "year": 2026,
     "status": "Publicado",
@@ -151,10 +440,10 @@
       "MIMO & Processamento de Sinais",
       "IA & Aprendizado de Máquina"
     ],
-    "bibtex": "@inproceedings{carneiro2026usercentric,\n  author = {M.D. Carneiro, S. S. Silva, I. M. Guerreiro, Y. C. B. Silva, V. F. Monteiro},\n  title = {User-Centric Clustering and Power Control in Cell-Free Networks with Dynamic TDD},\n  booktitle = {Proceedings of the XLIV Brazilian Telecommunications and Signal Processing Symposium (SBrT), 2026.},\n  year = {2026}\n}"
+    "bibtex": "@inproceedings{carneiro2026usercentric,\n  author = {M. D. Carneiro, S. S. Silva, I. M. Guerreiro, Y. C. B. Silva, V. F. Monteiro},\n  title = {User-Centric Clustering and Power Control in Cell-Free Networks with Dynamic TDD},\n  booktitle = {Proceedings of the XLIV Brazilian Telecommunications and Signal Processing Symposium (SBrT), 2026.},\n  year = {2026}\n}"
   },
   {
-    "id": "pub-007",
+    "id": "pub-019",
     "type": "Conferência Nacional (SBrT)",
     "title": "Otimização Max-Min em Redes CF-mMIMO com Antenas Fluidas usando PSO",
     "authors": "A. L. S. Aguiar, Y. C. B. Silva",
@@ -181,7 +470,7 @@
     "bibtex": "@inproceedings{aguiar2026otimização,\n  author = {A. L. S. Aguiar, Y. C. B. Silva},\n  title = {Otimização Max-Min em Redes CF-mMIMO com Antenas Fluidas usando PSO},\n  booktitle = {Proceedings of the XLIV Brazilian Telecommunications and Signal Processing Symposium (SBrT), 2026.},\n  year = {2026}\n}"
   },
   {
-    "id": "pub-008",
+    "id": "pub-020",
     "type": "Conferência Nacional (SBrT)",
     "title": "Joint Channel and Symbol Estimation for RIS-Assisted Fluid Antenna Systems",
     "authors": "J. V. de Araújo, G. T. de Araújo, A. L. F. de Almeida",
@@ -207,10 +496,10 @@
     "bibtex": "@inproceedings{araújo2026joint,\n  author = {J. V. de Araújo, G. T. de Araújo, A. L. F. de Almeida},\n  title = {Joint Channel and Symbol Estimation for RIS-Assisted Fluid Antenna Systems},\n  booktitle = {XLIV Brazilian Symposium on Telecommunications and Signal Processing, 2026.},\n  year = {2026}\n}"
   },
   {
-    "id": "pub-009",
+    "id": "pub-021",
     "type": "Conferência Nacional (SBrT)",
     "title": "Decoupled Delay-Doppler and Angle Estimation in BD-RIS Sensing via Nested Tucker Decomposition",
-    "authors": "K. B. A. Benício, F. E- Asim, B. Sokal, A. L. F. de Almeida, B. Makki, G. Fodor, A. Lee Swindlehurst",
+    "authors": "K. B. A. Benício, F. E-Asim, B. Sokal, A. L. F. de Almeida, B. Makki, G. Fodor, A. Lee Swindlehurst",
     "venue": "XLIV Brazilian Symposium on Telecommunications and Signal Processing, 2026.",
     "year": 2026,
     "status": "Publicado",
@@ -230,10 +519,10 @@
       "MIMO & Processamento de Sinais",
       "Métodos Tensoriais"
     ],
-    "bibtex": "@inproceedings{benício2026decoupled,\n  author = {K. B. A. Benício, F. E- Asim, B. Sokal, A. L. F. de Almeida, B. Makki, G. Fodor, A. Lee Swindlehurst},\n  title = {Decoupled Delay-Doppler and Angle Estimation in BD-RIS Sensing via Nested Tucker Decomposition},\n  booktitle = {XLIV Brazilian Symposium on Telecommunications and Signal Processing, 2026.},\n  year = {2026}\n}"
+    "bibtex": "@inproceedings{benício2026decoupled,\n  author = {K. B. A. Benício, F. E-Asim, B. Sokal, A. L. F. de Almeida, B. Makki, G. Fodor, A. Lee Swindlehurst},\n  title = {Decoupled Delay-Doppler and Angle Estimation in BD-RIS Sensing via Nested Tucker Decomposition},\n  booktitle = {XLIV Brazilian Symposium on Telecommunications and Signal Processing, 2026.},\n  year = {2026}\n}"
   },
   {
-    "id": "pub-010",
+    "id": "pub-022",
     "type": "Conferência Nacional (SBrT)",
     "title": "Dimming Space-Time Code (DSTC) for Visible Light Communication with Semi-Blind Detection",
     "authors": "I. S. C. Rodrigues, L. R. Ximenes, A. L. F. de Almeida",
@@ -257,7 +546,7 @@
     "bibtex": "@inproceedings{rodrigues2026dimming,\n  author = {I. S. C. Rodrigues, L. R. Ximenes, A. L. F. de Almeida},\n  title = {Dimming Space-Time Code (DSTC) for Visible Light Communication with Semi-Blind Detection},\n  booktitle = {XLIV Brazilian Symposium on Telecommunications and Signal Processing, 2026.},\n  year = {2026}\n}"
   },
   {
-    "id": "pub-011",
+    "id": "pub-023",
     "type": "Conferência Internacional",
     "title": "Geometry-Aided Kalman-Based Tracking Loops for Ionospheric Scintillation Monitoring",
     "authors": "R. V. Pacelli, R. Florindo, F. Antreich, A. Aragón-Ángel, A. Rovira-García, A. L. F. de Almeida",
@@ -282,7 +571,7 @@
     "bibtex": "@inproceedings{pacelli2026geometryaided,\n  author = {R. V. Pacelli, R. Florindo, F. Antreich, A. Aragón-Ángel, A. Rovira-García, A. L. F. de Almeida},\n  title = {Geometry-Aided Kalman-Based Tracking Loops for Ionospheric Scintillation Monitoring},\n  booktitle = {Proceedings of the 39th International Technical Meeting of the Satellite Division of The Institute of Navigation (ION GNSS+ 2026), 2026.},\n  year = {2026}\n}"
   },
   {
-    "id": "pub-012",
+    "id": "pub-024",
     "type": "Conferência Internacional",
     "title": "Evaluating Scintillation Time Series for Cycle Slip Prediction in Conventional Tracking Loops",
     "authors": "R. V. Pacelli, R. Florindo, F. Antreich, A. Aragón-Ángel, A. Rovira-García, A. L. F. de Almeida",
@@ -307,7 +596,7 @@
     "bibtex": "@inproceedings{pacelli2026evaluating,\n  author = {R. V. Pacelli, R. Florindo, F. Antreich, A. Aragón-Ángel, A. Rovira-García, A. L. F. de Almeida},\n  title = {Evaluating Scintillation Time Series for Cycle Slip Prediction in Conventional Tracking Loops},\n  booktitle = {Proceedings of the 39th International Technical Meeting of the Satellite Division of The Institute of Navigation (ION GNSS+ 2026), 2026.},\n  year = {2026}\n}"
   },
   {
-    "id": "pub-013",
+    "id": "pub-025",
     "type": "Conferência Internacional",
     "title": "Design of a Dual-Band Dielectric Resonator Antenna for Satellite Communication",
     "authors": "Edson R. Schlosser, S. P. Hehenberger, S. Caizzone",
@@ -332,7 +621,7 @@
     "bibtex": "@inproceedings{schlosser2026design,\n  author = {Edson R. Schlosser, S. P. Hehenberger, S. Caizzone},\n  title = {Design of a Dual-Band Dielectric Resonator Antenna for Satellite Communication},\n  booktitle = {20th European Conference on Antennas and Propagation, 2026.},\n  year = {2026}\n}"
   },
   {
-    "id": "pub-014",
+    "id": "pub-026",
     "type": "Conferência Internacional",
     "title": "Design of a Communication System for Environmental Data Collection Installed on a Vessel",
     "authors": "P. H. A. Everling, J. M. Vieira, E. R. Schlosser, M. V. T. Heckler",
@@ -357,7 +646,7 @@
     "bibtex": "@inproceedings{everling2026design,\n  author = {P. H. A. Everling, J. M. Vieira, E. R. Schlosser, M. V. T. Heckler},\n  title = {Design of a Communication System for Environmental Data Collection Installed on a Vessel},\n  booktitle = {20th European Conference on Antennas and Propagation, 2026.},\n  year = {2026}\n}"
   },
   {
-    "id": "pub-015",
+    "id": "pub-027",
     "type": "Conferência Internacional",
     "title": "Low-Cost Dual-Band Stacked Microstrip Antenna for GPS Application",
     "authors": "H. R. S. Rodrigues, G. P. Paulena, A. H. A. A. Bouari, J. M. Vieira, E. R. Schlosser, M. V. T. Heckler",
@@ -382,7 +671,7 @@
     "bibtex": "@inproceedings{rodrigues2026lowcost,\n  author = {H. R. S. Rodrigues, G. P. Paulena, A. H. A. A. Bouari, J. M. Vieira, E. R. Schlosser, M. V. T. Heckler},\n  title = {Low-Cost Dual-Band Stacked Microstrip Antenna for GPS Application},\n  booktitle = {20th European Conference on Antennas and Propagation, 2026.},\n  year = {2026}\n}"
   },
   {
-    "id": "pub-016",
+    "id": "pub-028",
     "type": "Conferência Internacional",
     "title": "On the Characterization of Conformal Antennas Using Scaled Mock-Ups of Launching Vehicles",
     "authors": "C. S. Franco, M. V. T. Heckler, A. F. Tinoco-S., W. F. Silva, E. R. Schlosser, J. M. Vieira, D. B. dos Santos, A. H. A. A. Bouari, L. S. Pereira",
@@ -407,7 +696,7 @@
     "bibtex": "@inproceedings{franco2026characterization,\n  author = {C. S. Franco, M. V. T. Heckler, A. F. Tinoco-S., W. F. Silva, E. R. Schlosser, J. M. Vieira, D. B. dos Santos, A. H. A. A. Bouari, L. S. Pereira},\n  title = {On the Characterization of Conformal Antennas Using Scaled Mock-Ups of Launching Vehicles},\n  booktitle = {20th European Conference on Antennas and Propagation, 2026.},\n  year = {2026}\n}"
   },
   {
-    "id": "pub-017",
+    "id": "pub-029",
     "type": "Conferência Internacional",
     "title": "Development of Antennas Operating in UHF and S-Band for 2U CubeSat Communication Systems",
     "authors": "Magdalena M. M. Mikue, E. R. Schlosser, J. M. Vieira, M. V. T. Heckler, A. H. A. A. Bouari, L. G. P. da Silva",
@@ -432,7 +721,7 @@
     "bibtex": "@inproceedings{mikue2026development,\n  author = {Magdalena M. M. Mikue, E. R. Schlosser, J. M. Vieira, M. V. T. Heckler, A. H. A. A. Bouari, L. G. P. da Silva},\n  title = {Development of Antennas Operating in UHF and S-Band for 2U CubeSat Communication Systems},\n  booktitle = {20th European Conference on Antennas and Propagation, 2026.},\n  year = {2026}\n}"
   },
   {
-    "id": "pub-018",
+    "id": "pub-030",
     "type": "Conferência Internacional",
     "title": "Wraparound Conformal Antenna Array Design and Modeling for Telemetry of Launching Vehicles",
     "authors": "W. F. Silva, A. H. A. A. Bouari, A. F. Tinoco-S., C. S. Franco, D. B. dos Santos, E. R. Schlosser, J. M. Vieira, L. S. Pereira, M. V. T. Heckler",
@@ -457,7 +746,7 @@
     "bibtex": "@inproceedings{silva2026wraparound,\n  author = {W. F. Silva, A. H. A. A. Bouari, A. F. Tinoco-S., C. S. Franco, D. B. dos Santos, E. R. Schlosser, J. M. Vieira, L. S. Pereira, M. V. T. Heckler},\n  title = {Wraparound Conformal Antenna Array Design and Modeling for Telemetry of Launching Vehicles},\n  booktitle = {20th European Conference on Antennas and Propagation, 2026.},\n  year = {2026}\n}"
   },
   {
-    "id": "pub-019",
+    "id": "pub-031",
     "type": "Conferência Internacional",
     "title": "Closed-Form Formulas for Fast Cylindrical Wraparound Array Design",
     "authors": "C. S. Franco, W. F. Silva, J. M. Vieira, E. R. Schlosser, A. F. Tinoco-S., M. V. T. Heckler",
@@ -481,7 +770,7 @@
     "bibtex": "@inproceedings{franco2026closedform,\n  author = {C. S. Franco, W. F. Silva, J. M. Vieira, E. R. Schlosser, A. F. Tinoco-S., M. V. T. Heckler},\n  title = {Closed-Form Formulas for Fast Cylindrical Wraparound Array Design},\n  booktitle = {Latin American Conference on Antennas and Propagation, 2026.},\n  year = {2026}\n}"
   },
   {
-    "id": "pub-020",
+    "id": "pub-032",
     "type": "Conferência Internacional",
     "title": "Design and Analysis of a 1:8 Stripline Power Divider for High-Frequency Applications",
     "authors": "W. F. Silva, C. S. Franco, J. M. Vieira, E. R. Schlosser, M. V. T. Heckler",
@@ -504,7 +793,7 @@
     "bibtex": "@inproceedings{silva2026design,\n  author = {W. F. Silva, C. S. Franco, J. M. Vieira, E. R. Schlosser, M. V. T. Heckler},\n  title = {Design and Analysis of a 1:8 Stripline Power Divider for High-Frequency Applications},\n  booktitle = {Latin American Conference on Antennas and Propagation, 2026.},\n  year = {2026}\n}"
   },
   {
-    "id": "pub-021",
+    "id": "pub-033",
     "type": "Periódico",
     "title": "Channel Estimation for Beyond Diagonal RIS Exploiting Core Tensor Sparsity",
     "authors": "D. C. Araújo, A. L. F. de Almeida",
@@ -529,7 +818,7 @@
     "bibtex": "@article{araújo2026channel,\n  author = {D. C. Araújo, A. L. F. de Almeida},\n  title = {Channel Estimation for Beyond Diagonal RIS Exploiting Core Tensor Sparsity},\n  journal = {IEEE Wireless Communications Letters, June, 2026.},\n  year = {2026}\n}"
   },
   {
-    "id": "pub-022",
+    "id": "pub-034",
     "type": "Periódico",
     "title": "A Low-Rank Tucker Decomposition-Based Channel Estimator for IRS-Assisted mmWave OFDM Systems",
     "authors": "X. Han, J. Chen, I. Santamaría, A. L. F. de Almeida, F. Gao, B. Chen",
@@ -554,7 +843,7 @@
     "bibtex": "@article{han2026lowrank,\n  author = {X. Han, J. Chen, I. Santamaría, A. L. F. de Almeida, F. Gao, B. Chen},\n  title = {A Low-Rank Tucker Decomposition-Based Channel Estimator for IRS-Assisted mmWave OFDM Systems},\n  journal = {IEEE Open Journal of the Communications Society, July, 2026.},\n  year = {2026}\n}"
   },
   {
-    "id": "pub-023",
+    "id": "pub-035",
     "type": "Periódico",
     "title": "Multi-Target Estimation via Tensor Decomposition for Beyond Diagonal RIS-Aided Bistatic Sensing",
     "authors": "K. B. A. Benício, A. L. F. de Almeida, F.-E. Asim, B. Sokal, B. Makki, G. Fodor, A. L. Swindlehurst",
@@ -579,7 +868,7 @@
     "bibtex": "@article{benício2026multitarget,\n  author = {K. B. A. Benício, A. L. F. de Almeida, F.-E. Asim, B. Sokal, B. Makki, G. Fodor, A. L. Swindlehurst},\n  title = {Multi-Target Estimation via Tensor Decomposition for Beyond Diagonal RIS-Aided Bistatic Sensing},\n  journal = {submitted, 2026.},\n  year = {2026}\n}"
   },
   {
-    "id": "pub-024",
+    "id": "pub-036",
     "type": "Periódico",
     "title": "Semi-Blind Receivers for RIS-Aided Fluid Antenna Systems",
     "authors": "J. V. Araújo, G. T. de Araújo, A. L. F. de Almeida",
@@ -605,7 +894,7 @@
     "bibtex": "@article{araújo2026semiblind,\n  author = {J. V. Araújo, G. T. de Araújo, A. L. F. de Almeida},\n  title = {Semi-Blind Receivers for RIS-Aided Fluid Antenna Systems},\n  journal = {submitted, 2026.},\n  year = {2026}\n}"
   },
   {
-    "id": "pub-025",
+    "id": "pub-037",
     "type": "Periódico",
     "title": "Implicit Neural Functional Tensor Train for Multivariate Function Approximation",
     "authors": "L. Chen, A. L. F. de Almeida, C. Zhu, Y. Liu",
@@ -628,7 +917,7 @@
     "bibtex": "@article{chen2026implicit,\n  author = {L. Chen, A. L. F. de Almeida, C. Zhu, Y. Liu},\n  title = {Implicit Neural Functional Tensor Train for Multivariate Function Approximation},\n  journal = {submitted, 2026.},\n  year = {2026}\n}"
   },
   {
-    "id": "pub-026",
+    "id": "pub-038",
     "type": "Periódico",
     "title": "TenSIM: Tensor-Based Channel Estimation for MIMO Systems with Stacked Intelligent Metasurfaces",
     "authors": "A. L. F. de Almeida, G. Alexandropoulos",
@@ -653,7 +942,7 @@
     "bibtex": "@article{almeida2026tensim,\n  author = {A. L. F. de Almeida, G. Alexandropoulos},\n  title = {TenSIM: Tensor-Based Channel Estimation for MIMO Systems with Stacked Intelligent Metasurfaces},\n  journal = {submitted, 2026.},\n  year = {2026}\n}"
   },
   {
-    "id": "pub-027",
+    "id": "pub-039",
     "type": "Periódico",
     "title": "Time-Varying Parametric Channel Estimation with CP Decomposition Tensor Processing",
     "authors": "E. T. R. Pinto, A. L. F. de Almeida, M. Juntti",
@@ -677,7 +966,7 @@
     "bibtex": "@article{pinto2026timevarying,\n  author = {E. T. R. Pinto, A. L. F. de Almeida, M. Juntti},\n  title = {Time-Varying Parametric Channel Estimation with CP Decomposition Tensor Processing},\n  journal = {submitted, 2026.},\n  year = {2026}\n}"
   },
   {
-    "id": "pub-028",
+    "id": "pub-040",
     "type": "Periódico",
     "title": "Low-Complexity Tensor Beamforming for RIS-Aided Multiuser Multistream MIMO Systems",
     "authors": "B. Sokal, A. L. F. de Almeida, M. Haardt",
@@ -702,7 +991,7 @@
     "bibtex": "@article{sokal2026lowcomplexity,\n  author = {B. Sokal, A. L. F. de Almeida, M. Haardt},\n  title = {Low-Complexity Tensor Beamforming for RIS-Aided Multiuser Multistream MIMO Systems},\n  journal = {submitted, 2026.},\n  year = {2026}\n}"
   },
   {
-    "id": "pub-029",
+    "id": "pub-041",
     "type": "Periódico",
     "title": "PARAFAC-Based Channel Estimation for Beyond Diagonal Reconfigurable Surfaces",
     "authors": "G. T. de Araújo, B. Sokal, A. L. F. de Almeida",
@@ -728,7 +1017,7 @@
     "bibtex": "@article{araújo2026parafacbased,\n  author = {G. T. de Araújo, B. Sokal, A. L. F. de Almeida},\n  title = {PARAFAC-Based Channel Estimation for Beyond Diagonal Reconfigurable Surfaces},\n  journal = {” submitted, 2026.},\n  year = {2026}\n}"
   },
   {
-    "id": "pub-030",
+    "id": "pub-042",
     "type": "Periódico",
     "title": "Hybrid Tensor Decomposition and Diffusion Modeling for Scalable Radio Map Construction",
     "authors": "Y. Huang, K. Tan, R. Fan, C. Zhu, A. L. F. de Almeida, Y. Liu",
@@ -751,7 +1040,7 @@
     "bibtex": "@article{huang2026hybrid,\n  author = {Y. Huang, K. Tan, R. Fan, C. Zhu, A. L. F. de Almeida, Y. Liu},\n  title = {Hybrid Tensor Decomposition and Diffusion Modeling for Scalable Radio Map Construction},\n  journal = {” submitted, 2026.},\n  year = {2026}\n}"
   },
   {
-    "id": "pub-031",
+    "id": "pub-043",
     "type": "Periódico",
     "title": "Channel Estimation via Tensor Decomposition for Dynamic Metasurface Antennas with Known Mutual Coupling: Algorithms and Experiments",
     "authors": "J. Tapie, B. Sokal, A. L. F. de Almeida, P. del Hougne",
@@ -779,7 +1068,7 @@
     "bibtex": "@article{tapie2026channel,\n  author = {J. Tapie, B. Sokal, A. L. F. de Almeida, P. del Hougne},\n  title = {Channel Estimation via Tensor Decomposition for Dynamic Metasurface Antennas with Known Mutual Coupling: Algorithms and Experiments},\n  journal = {” submitted, 2026.},\n  year = {2026}\n}"
   },
   {
-    "id": "pub-032",
+    "id": "pub-044",
     "type": "Periódico",
     "title": "Energy-Aware Dynamic Decoding for 2D-ECC-Protected CubeSat Memories",
     "authors": "L. Vargas, G. Borba, E. Moreno, D. Ciarlini, E. Filho, A. Soares, J. Silveira, C. Marcon",
@@ -803,7 +1092,7 @@
     "bibtex": "@article{vargas2026energyaware,\n  author = {L. Vargas, G. Borba, E. Moreno, D. Ciarlini, E. Filho, A. Soares, J. Silveira, C. Marcon},\n  title = {Energy-Aware Dynamic Decoding for 2D-ECC-Protected CubeSat Memories},\n  journal = {submitted, 2026.},\n  year = {2026}\n}"
   },
   {
-    "id": "pub-033",
+    "id": "pub-045",
     "type": "Periódico",
     "title": "Overlapping Error Correction Codes Fundamentals and Potential Exploitation",
     "authors": "G. Borba, L. Vargas, E. Moreno, A. Fritsch, J. Silveira, C. Marcon",
@@ -826,7 +1115,7 @@
     "bibtex": "@article{borba2026overlapping,\n  author = {G. Borba, L. Vargas, E. Moreno, A. Fritsch, J. Silveira, C. Marcon},\n  title = {Overlapping Error Correction Codes Fundamentals and Potential Exploitation},\n  journal = {” submitted, 2026.},\n  year = {2026}\n}"
   },
   {
-    "id": "pub-034",
+    "id": "pub-046",
     "type": "Periódico",
     "title": "DEMC: A Dynamic Multi-ECC Memory Controller with Per-Block Adaptation",
     "authors": "M. Stefani, F. Silva, J. Silveira, G. Borba, L. Vargas, E. Moreno, C. Marcon",
@@ -850,7 +1139,7 @@
     "bibtex": "@article{stefani2026demc,\n  author = {M. Stefani, F. Silva, J. Silveira, G. Borba, L. Vargas, E. Moreno, C. Marcon},\n  title = {DEMC: A Dynamic Multi-ECC Memory Controller with Per-Block Adaptation},\n  journal = {” submitted, 2026.},\n  year = {2026}\n}"
   },
   {
-    "id": "pub-035",
+    "id": "pub-047",
     "type": "Periódico",
     "title": "Semi-Blind Joint Channel and Symbol Estimation for Beyond Diagonal Reconfigurable Surfaces",
     "authors": "G. T. Araújo, A. L. F. de Almeida, B. Sokal, P. R. B. Gomes, G. Fodor",
@@ -873,7 +1162,7 @@
     "bibtex": "@article{araújo2026semiblind,\n  author = {G. T. Araújo, A. L. F. de Almeida, B. Sokal, P. R. B. Gomes, G. Fodor},\n  title = {Semi-Blind Joint Channel and Symbol Estimation for Beyond Diagonal Reconfigurable Surfaces},\n  journal = {” submitted, 2026.},\n  year = {2026}\n}"
   },
   {
-    "id": "pub-036",
+    "id": "pub-048",
     "type": "Periódico",
     "title": "Kronecker Product-Driven Tensor Decomposition for Joint Channel-Symbol Estimation in Dynamic IRS-MIMO Systems",
     "authors": "X. Han, R. Wang, J. Ying, F. Bi, A. L. F. de Almeida, H. Zhang",
@@ -898,7 +1187,7 @@
     "bibtex": "@article{han2026kronecker,\n  author = {X. Han, R. Wang, J. Ying, F. Bi, A. L. F. de Almeida, H. Zhang},\n  title = {Kronecker Product-Driven Tensor Decomposition for Joint Channel-Symbol Estimation in Dynamic IRS-MIMO Systems},\n  journal = {” submitted, 2026.},\n  year = {2026}\n}"
   },
   {
-    "id": "pub-037",
+    "id": "pub-049",
     "type": "Periódico",
     "title": "Efficient Techniques for Low-Rank Tensor Approximation and Applications in Robust Object Detection",
     "authors": "S. Ahmadi-Asl, N. Rezaeian, C. F. Caiafa, A. L. F. de Almeida",
@@ -921,7 +1210,7 @@
     "bibtex": "@article{ahmadi-asl2026efficient,\n  author = {S. Ahmadi-Asl, N. Rezaeian, C. F. Caiafa, A. L. F. de Almeida},\n  title = {Efficient Techniques for Low-Rank Tensor Approximation and Applications in Robust Object Detection},\n  journal = {Technologies, to appear, 2026.},\n  year = {2026}\n}"
   },
   {
-    "id": "pub-038",
+    "id": "pub-050",
     "type": "Periódico",
     "title": "Characterization of the Dielectric Properties of 3D Printing Filaments Using Cavity Perturbation Technique for 5G Applications",
     "authors": "W. Castro, D. Santos, L. Armas, E. R. Schlosser, M. V. T. Heckler",
@@ -945,7 +1234,7 @@
     "bibtex": "@article{castro2026characterization,\n  author = {W. Castro, D. Santos, L. Armas, E. R. Schlosser, M. V. T. Heckler},\n  title = {Characterization of the Dielectric Properties of 3D Printing Filaments Using Cavity Perturbation Technique for 5G Applications},\n  journal = {” Journal of Microwaves, Optoelectronics and Electromagnetic Applications, vol. 25, no. 2, e2026298896, 2026.},\n  year = {2026}\n}"
   },
   {
-    "id": "pub-039",
+    "id": "pub-051",
     "type": "Periódico",
     "title": "A novel low-cost architecture based on compact lumped circuits and parallel-combined switches for reconfigurable radiation patterns of antennas installed on UAVs",
     "authors": "E. R. Schlosser, N. F. da Silva, M. V. T. Heckler",
@@ -971,7 +1260,7 @@
     "bibtex": "@article{schlosser2026novel,\n  author = {E. R. Schlosser, N. F. da Silva, M. V. T. Heckler},\n  title = {A novel low-cost architecture based on compact lumped circuits and parallel-combined switches for reconfigurable radiation patterns of antennas installed on UAVs},\n  journal = {” AEU – International Journal of Electronics and Communications, vol. 209, 156274, 2026.},\n  year = {2026}\n}"
   },
   {
-    "id": "pub-040",
+    "id": "pub-052",
     "type": "Conferência Nacional (SBrT)",
     "title": "Antena de Microfita Dupla Faixa de Baixo Custo Otimizada para as Bandas L1/L5 do GPS",
     "authors": "H. R. S. Rodrigues, M. V. T. Heckler e E. Rodrigo Schlosser",
@@ -997,7 +1286,7 @@
     "bibtex": "@inproceedings{rodrigues2025antena,\n  author = {H. R. S. Rodrigues, M. V. T. Heckler e E. Rodrigo Schlosser},\n  title = {Antena de Microfita Dupla Faixa de Baixo Custo Otimizada para as Bandas L1/L5 do GPS},\n  booktitle = {Proceedings of the XLIII Brazilian Telecommunications and Signal Processing Symposium (SBrT), 2025.},\n  year = {2025}\n}"
   },
   {
-    "id": "pub-041",
+    "id": "pub-053",
     "type": "Conferência Nacional (SBrT)",
     "title": "Rede Refletora em Banda X com Elevada Discriminação de Polarização Cruzada",
     "authors": "S. P. Campos, E. R. Schlosser, M. V. T. Heckler",
@@ -1022,7 +1311,7 @@
     "bibtex": "@inproceedings{campos2025rede,\n  author = {S. P. Campos, E. R. Schlosser, M. V. T. Heckler},\n  title = {Rede Refletora em Banda X com Elevada Discriminação de Polarização Cruzada},\n  booktitle = {Proceedings of the XLIII Brazilian Telecommunications and Signal Processing Symposium (SBrT), 2025.},\n  year = {2025}\n}"
   },
   {
-    "id": "pub-042",
+    "id": "pub-054",
     "type": "Conferência Nacional (SBrT)",
     "title": "A Comparative Study Between Dielectric and Microstrip Antenna Arrays for GPS Application",
     "authors": "G. P. Paulena, H. R. S. Rodrigues, E. R. Schlosser, M. V. T. Heckler",
@@ -1048,7 +1337,7 @@
     "bibtex": "@inproceedings{paulena2025comparative,\n  author = {G. P. Paulena, H. R. S. Rodrigues, E. R. Schlosser, M. V. T. Heckler},\n  title = {A Comparative Study Between Dielectric and Microstrip Antenna Arrays for GPS Application},\n  booktitle = {Proceedings of the XLIII Brazilian Telecommunications and Signal Processing Symposium (SBrT), 2025.},\n  year = {2025}\n}"
   },
   {
-    "id": "pub-043",
+    "id": "pub-055",
     "type": "Conferência Nacional (SBrT)",
     "title": "Dual-Antenna Passive Synthetic Aperture Direction-of-Arrival Estimation for Airborne Platforms",
     "authors": "L. G. da Costa, F. Antreich, D. O. Silva, R. H. de Souza",
@@ -1076,7 +1365,7 @@
     "bibtex": "@inproceedings{costa2025dualantenna,\n  author = {L. G. da Costa, F. Antreich, D. O. Silva, R. H. de Souza},\n  title = {Dual-Antenna Passive Synthetic Aperture Direction-of-Arrival Estimation for Airborne Platforms},\n  booktitle = {Proceedings of the XLIII Brazilian Telecommunications and Signal Processing Symposium (SBrT), 2025.},\n  year = {2025}\n}"
   },
   {
-    "id": "pub-044",
+    "id": "pub-056",
     "type": "Conferência Nacional (SBrT)",
     "title": "Qualidade de Serviços em Telecomunicações e Desigualdades Territoriais: Uma Abordagem Explicável com Clusterização Espacial",
     "authors": "M. A. de Almeida Fidos Jr., R. Machado, D. I. Alves, B. F. Uchôa-Filho, L. P. Amaro",
@@ -1101,7 +1390,7 @@
     "bibtex": "@inproceedings{jr.2025qualidade,\n  author = {M. A. de Almeida Fidos Jr., R. Machado, D. I. Alves, B. F. Uchôa-Filho, L. P. Amaro},\n  title = {Qualidade de Serviços em Telecomunicações e Desigualdades Territoriais: Uma Abordagem Explicável com Clusterização Espacial},\n  booktitle = {Proceedings of the XLIII Brazilian Telecommunications and Signal Processing Symposium (SBrT), 2025.},\n  year = {2025}\n}"
   },
   {
-    "id": "pub-045",
+    "id": "pub-057",
     "type": "Conferência Nacional (SBrT)",
     "title": "Deep Learning Models Applied in Automatic Modulation Classification of Radar Signals",
     "authors": "P. F. Abissamra, S. Leite, R. Machado e D. I. Alves",
@@ -1126,7 +1415,7 @@
     "bibtex": "@inproceedings{abissamra2025deep,\n  author = {P. F. Abissamra, S. Leite, R. Machado e D. I. Alves},\n  title = {Deep Learning Models Applied in Automatic Modulation Classification of Radar Signals},\n  booktitle = {Proceedings of the XLIII Brazilian Telecommunications and Signal Processing Symposium (SBrT), 2025.},\n  year = {2025}\n}"
   },
   {
-    "id": "pub-046",
+    "id": "pub-058",
     "type": "Conferência Nacional (SBrT)",
     "title": "Change Detection Based on Bayes' Theorem for Intensity Wavelength-Resolution SAR Difference Images",
     "authors": "G. L. E. Pedro, D. I. Alves, D. S. de Medeiros, P. R. B. da Silva, J. V. R. Negri, A. C. M. Barcella",
@@ -1150,7 +1439,7 @@
     "bibtex": "@inproceedings{pedro2025change,\n  author = {G. L. E. Pedro, D. I. Alves, D. S. de Medeiros, P. R. B. da Silva, J. V. R. Negri, A. C. M. Barcella},\n  title = {Change Detection Based on Bayes' Theorem for Intensity Wavelength-Resolution SAR Difference Images},\n  booktitle = {Proceedings of the XLIII Brazilian Telecommunications and Signal Processing Symposium (SBrT), 2025.},\n  year = {2025}\n}"
   },
   {
-    "id": "pub-047",
+    "id": "pub-059",
     "type": "Conferência Nacional (SBrT)",
     "title": "Simultaneous Direct and Indirect Channel Estimation for RIS-Assisted MIMO Communications",
     "authors": "D. V. C. de Oliveira, D. C. Alcântara, F.-E. Asim, A. L. F. de Almeida, G. Fodor",
@@ -1174,7 +1463,7 @@
     "bibtex": "@inproceedings{oliveira2025simultaneous,\n  author = {D. V. C. de Oliveira, D. C. Alcântara, F.-E. Asim, A. L. F. de Almeida, G. Fodor},\n  title = {Simultaneous Direct and Indirect Channel Estimation for RIS-Assisted MIMO Communications},\n  booktitle = {Proceedings of the XLIII Brazilian Telecommunications and Signal Processing Symposium (SBrT), 2025.},\n  year = {2025}\n}"
   },
   {
-    "id": "pub-048",
+    "id": "pub-060",
     "type": "Conferência Nacional (SBrT)",
     "title": "Joint Channel and Symbol Estimation for Communication Systems with Movable Antennas",
     "authors": "J. V. de Araújo, J. C. da Silva Filho, G. T. de Araújo, P. R. B. Gomes, A. L. F. de Almeida",
@@ -1200,7 +1489,7 @@
     "bibtex": "@inproceedings{araújo2025joint,\n  author = {J. V. de Araújo, J. C. da Silva Filho, G. T. de Araújo, P. R. B. Gomes, A. L. F. de Almeida},\n  title = {Joint Channel and Symbol Estimation for Communication Systems with Movable Antennas},\n  booktitle = {Proceedings of the XLIII Brazilian Telecommunications and Signal Processing Symposium (SBrT), 2025.},\n  year = {2025}\n}"
   },
   {
-    "id": "pub-049",
+    "id": "pub-061",
     "type": "Conferência Nacional (SBrT)",
     "title": "Performance Evaluation of Beyond Diagonal Reconfigurable Intelligent Surfaces under Hardware Impairments",
     "authors": "J. C. da Silva Filho, J. V. de Araújo, B. Sokal, A. L. F. de Almeida",
@@ -1226,7 +1515,7 @@
     "bibtex": "@inproceedings{filho2025performance,\n  author = {J. C. da Silva Filho, J. V. de Araújo, B. Sokal, A. L. F. de Almeida},\n  title = {Performance Evaluation of Beyond Diagonal Reconfigurable Intelligent Surfaces under Hardware Impairments},\n  booktitle = {Proceedings of the XLIII Brazilian Telecommunications and Signal Processing Symposium (SBrT), 2025.},\n  year = {2025}\n}"
   },
   {
-    "id": "pub-050",
+    "id": "pub-062",
     "type": "Conferência Nacional (SBrT)",
     "title": "Performance Evaluation of High-Resolution Parameter Estimation in Low-Rank MIMO Channels with Interference",
     "authors": "J. C. S. Ferreira, F. I. T. Pires e F.-E. Asim",
@@ -1250,7 +1539,7 @@
     "bibtex": "@inproceedings{ferreira2025performance,\n  author = {J. C. S. Ferreira, F. I. T. Pires e F.-E. Asim},\n  title = {Performance Evaluation of High-Resolution Parameter Estimation in Low-Rank MIMO Channels with Interference},\n  booktitle = {Proceedings of the XLIII Brazilian Telecommunications and Signal Processing Symposium (SBrT), 2025.},\n  year = {2025}\n}"
   },
   {
-    "id": "pub-051",
+    "id": "pub-063",
     "type": "Conferência Nacional (SBrT)",
     "title": "Automatic Detection and Classification of Brazilian Traffic Signs Using YOLO",
     "authors": "C. H. A. Tavares, G. M. Oliveira, A. C. C. Martins, Y. S. Moura, T. F. Maciel",
@@ -1274,7 +1563,7 @@
     "bibtex": "@inproceedings{tavares2025automatic,\n  author = {C. H. A. Tavares, G. M. Oliveira, A. C. C. Martins, Y. S. Moura, T. F. Maciel},\n  title = {Automatic Detection and Classification of Brazilian Traffic Signs Using YOLO},\n  booktitle = {Proceedings of the XLIII Brazilian Telecommunications and Signal Processing Symposium (SBrT), 2025.},\n  year = {2025}\n}"
   },
   {
-    "id": "pub-052",
+    "id": "pub-064",
     "type": "Conferência Nacional (SBrT)",
     "title": "Energy Efficiency Analysis of Power Allocation on Distributed MIMO Systems with Dynamic TDD",
     "authors": "M. D. Carneiro, I. M. Guerreiro, Y. C. B. Silva, S. S. Silva, V. F. Monteiro, A. C. Albuquerque",
@@ -1299,7 +1588,7 @@
     "bibtex": "@inproceedings{carneiro2025energy,\n  author = {M. D. Carneiro, I. M. Guerreiro, Y. C. B. Silva, S. S. Silva, V. F. Monteiro, A. C. Albuquerque},\n  title = {Energy Efficiency Analysis of Power Allocation on Distributed MIMO Systems with Dynamic TDD},\n  booktitle = {Proceedings of the XLIII Brazilian Telecommunications and Signal Processing Symposium (SBrT), 2025.},\n  year = {2025}\n}"
   },
   {
-    "id": "pub-053",
+    "id": "pub-065",
     "type": "Conferência Nacional (SBrT)",
     "title": "User-Centric Clustering in Cell-Free Networks with Dynamic Time Division Duplexing",
     "authors": "S. S. Silva, Y. C. B. Silva, Igor M. Guerreiro, V. F. Monteiro, M. D. Carneiro, A. C. Albuquerque",
@@ -1325,7 +1614,7 @@
     "bibtex": "@inproceedings{silva2025usercentric,\n  author = {S. S. Silva, Y. C. B. Silva, Igor M. Guerreiro, V. F. Monteiro, M. D. Carneiro, A. C. Albuquerque},\n  title = {User-Centric Clustering in Cell-Free Networks with Dynamic Time Division Duplexing},\n  booktitle = {Proceedings of the XLIII Brazilian Telecommunications and Signal Processing Symposium (SBrT), 2025.},\n  year = {2025}\n}"
   },
   {
-    "id": "pub-054",
+    "id": "pub-066",
     "type": "Conferência Internacional",
     "title": "Semi-Blind Channel Estimation for Downlink Communications Based on Dynamic Metasurface Antennas",
     "authors": "A. L. Magalhães, A. L. F. de Almeida, A. Lee Swindlehurst",
@@ -1353,7 +1642,7 @@
     "bibtex": "@inproceedings{magalhães2025semiblind,\n  author = {A. L. Magalhães, A. L. F. de Almeida, A. Lee Swindlehurst},\n  title = {Semi-Blind Channel Estimation for Downlink Communications Based on Dynamic Metasurface Antennas},\n  booktitle = {Asilomar Conference on Signals, Systems, and Computers, 2025.},\n  year = {2025}\n}"
   },
   {
-    "id": "pub-055",
+    "id": "pub-067",
     "type": "Conferência Internacional",
     "title": "Least-Squares Khatri-Rao Factorization of a Polynomial Matrix",
     "authors": "F.-E. Asim, F. Khattak, B. Sokal, A. L. F. de Almeida",
@@ -1376,7 +1665,7 @@
     "bibtex": "@inproceedings{asim2025leastsquares,\n  author = {F.-E. Asim, F. Khattak, B. Sokal, A. L. F. de Almeida},\n  title = {Least-Squares Khatri-Rao Factorization of a Polynomial Matrix},\n  booktitle = {European Signal Processing Conference, 2025.},\n  year = {2025}\n}"
   },
   {
-    "id": "pub-056",
+    "id": "pub-068",
     "type": "Conferência Internacional",
     "title": "Uniform Planar Array Broadband Angle of Arrival Estimation from Polynomial Steering Matrix",
     "authors": "F.-E. Asim, F. Khattak, S. Weiss, A. L. F. de Almeida",
@@ -1399,7 +1688,7 @@
     "bibtex": "@inproceedings{asim2025uniform,\n  author = {F.-E. Asim, F. Khattak, S. Weiss, A. L. F. de Almeida},\n  title = {Uniform Planar Array Broadband Angle of Arrival Estimation from Polynomial Steering Matrix},\n  booktitle = {IEEE International Workshop on Statistical Signal Processing, 2025.},\n  year = {2025}\n}"
   },
   {
-    "id": "pub-057",
+    "id": "pub-069",
     "type": "Conferência Internacional",
     "title": "Joint Uplink-Downlink Channel Estimation for Non-Reciprocal RIS-Assisted Communications",
     "authors": "P. R. B. Gomes, A. L. Magalhães, A. L. F. de Almeida",
@@ -1424,7 +1713,7 @@
     "bibtex": "@inproceedings{gomes2025joint,\n  author = {P. R. B. Gomes, A. L. Magalhães, A. L. F. de Almeida},\n  title = {Joint Uplink-Downlink Channel Estimation for Non-Reciprocal RIS-Assisted Communications},\n  booktitle = {IEEE International Conference on Communications, 2025.},\n  year = {2025}\n}"
   },
   {
-    "id": "pub-058",
+    "id": "pub-070",
     "type": "Conferência Internacional",
     "title": "Overlapped Error Correction Codes in Two-Dimensional Structures",
     "authors": "A. Fritsch et al.",
@@ -1447,7 +1736,7 @@
     "bibtex": "@inproceedings{al.2025overlapped,\n  author = {A. Fritsch et al.},\n  title = {Overlapped Error Correction Codes in Two-Dimensional Structures},\n  booktitle = {Proceedings of IEEE Latin American Symposium on Circuits and Systems, 2025.},\n  year = {2025}\n}"
   },
   {
-    "id": "pub-059",
+    "id": "pub-071",
     "type": "Conferência Internacional",
     "title": "Closed-Form Receivers for MIMO Communications Assisted by Hybrid Sensing and Reflecting RIS",
     "authors": "A. L. Magalhães, A. L. F. de Almeida, L. Deneire",
@@ -1473,7 +1762,7 @@
     "bibtex": "@inproceedings{magalhães2025closedform,\n  author = {A. L. Magalhães, A. L. F. de Almeida, L. Deneire},\n  title = {Closed-Form Receivers for MIMO Communications Assisted by Hybrid Sensing and Reflecting RIS},\n  booktitle = {IEEE International Conference on Communications, 2025.},\n  year = {2025}\n}"
   },
   {
-    "id": "pub-060",
+    "id": "pub-072",
     "type": "Conferência Internacional",
     "title": "Bistatic Integrated Sensing and Communication Scenarios with Transmitter and Receiver-Side Trade-Offs",
     "authors": "S. Fodor, G. Fodor, André L. F. de Almeida, M. Telek",
@@ -1496,7 +1785,7 @@
     "bibtex": "@inproceedings{fodor2025bistatic,\n  author = {S. Fodor, G. Fodor, André L. F. de Almeida, M. Telek},\n  title = {Bistatic Integrated Sensing and Communication Scenarios with Transmitter and Receiver-Side Trade-Offs},\n  booktitle = {IEEE International Symposium on Joint Communications and Sensing, 2025.},\n  year = {2025}\n}"
   },
   {
-    "id": "pub-061",
+    "id": "pub-073",
     "type": "Conferência Internacional",
     "title": "Joint Active and Passive Beamforming Design for Multi-Stream MIMO RIS Systems: A Tensor-Based Approach",
     "authors": "B. Sokal, André L. F. de Almeida, Martin Haardt",
@@ -1521,7 +1810,7 @@
     "bibtex": "@inproceedings{sokal2025joint,\n  author = {B. Sokal, André L. F. de Almeida, Martin Haardt},\n  title = {Joint Active and Passive Beamforming Design for Multi-Stream MIMO RIS Systems: A Tensor-Based Approach},\n  booktitle = {IEEE Workshop on Computational Advances in Multi-Sensor Adaptive Processing, 2025.},\n  year = {2025}\n}"
   },
   {
-    "id": "pub-062",
+    "id": "pub-074",
     "type": "Conferência Internacional",
     "title": "Characterization of Ionospheric Scintillation Using Deep Learning Models",
     "authors": "R. V. Pacelli, R. L. Florindo, F. Antreich, A. L. F. de Almeida, A. A.-Angel, A. Rovira-García",
@@ -1547,7 +1836,7 @@
     "bibtex": "@inproceedings{pacelli2025characterization,\n  author = {R. V. Pacelli, R. L. Florindo, F. Antreich, A. L. F. de Almeida, A. A.-Angel, A. Rovira-García},\n  title = {Characterization of Ionospheric Scintillation Using Deep Learning Models},\n  booktitle = {Proceedings of the 38th International Technical Meeting of the Satellite Division of The Institute of Navigation (ION GNSS+ 2025), 2025.},\n  year = {2025}\n}"
   },
   {
-    "id": "pub-063",
+    "id": "pub-075",
     "type": "Conferência Internacional",
     "title": "Regulatory and Operational Integration of High Altitude Platform Stations Considering the Brazilian and the European Perspectives",
     "authors": "C. Erotokritou, S. Stellatou, I. F. Vargas, E. P. de Freitas",
@@ -1572,7 +1861,7 @@
     "bibtex": "@inproceedings{erotokritou2025regulatory,\n  author = {C. Erotokritou, S. Stellatou, I. F. Vargas, E. P. de Freitas},\n  title = {Regulatory and Operational Integration of High Altitude Platform Stations Considering the Brazilian and the European Perspectives},\n  booktitle = {International Conference on Unmanned Aircraft Systems, 2025.},\n  year = {2025}\n}"
   },
   {
-    "id": "pub-064",
+    "id": "pub-076",
     "type": "Conferência Internacional",
     "title": "A DRL-based trajectory planning strategy for UAV navigation: A comparison of the PPO algorithm with DDQN, DDPG, and A*",
     "authors": "M. R. Vizzotto, G. Kohl, C. E. Pereira, M. Tropea, E. P. de Freitas",
@@ -1599,7 +1888,7 @@
     "bibtex": "@inproceedings{vizzotto2025drlbased,\n  author = {M. R. Vizzotto, G. Kohl, C. E. Pereira, M. Tropea, E. P. de Freitas},\n  title = {A DRL-based trajectory planning strategy for UAV navigation: A comparison of the PPO algorithm with DDQN, DDPG, and A*},\n  booktitle = {IEEE International Conference on Advanced Robotics, 2025.},\n  year = {2025}\n}"
   },
   {
-    "id": "pub-065",
+    "id": "pub-077",
     "type": "Conferência Internacional",
     "title": "A Holistic Communication Approach to Support UAVs and Ground Sensors in Precision Agriculture",
     "authors": "O. A. da Cruz, L. U. Haack, D. H. Pohren, A. D. S. Roque, C. E. Pereira, E. P. de Freitas",
@@ -1624,7 +1913,7 @@
     "bibtex": "@inproceedings{cruz2025holistic,\n  author = {O. A. da Cruz, L. U. Haack, D. H. Pohren, A. D. S. Roque, C. E. Pereira, E. P. de Freitas},\n  title = {A Holistic Communication Approach to Support UAVs and Ground Sensors in Precision Agriculture},\n  booktitle = {IEEE Latin Conference on IoT, 2025.},\n  year = {2025}\n}"
   },
   {
-    "id": "pub-066",
+    "id": "pub-078",
     "type": "Conferência Internacional",
     "title": "Unmanned Aerial Vehicles Data Model",
     "authors": "P. H. M. Pereira, M. D. Bampi, M. Basso, A. M. da Rosa, C. S. S. Guimaraes, E. P. de Freitas",
@@ -1649,10 +1938,10 @@
     "bibtex": "@inproceedings{pereira2025unmanned,\n  author = {P. H. M. Pereira, M. D. Bampi, M. Basso, A. M. da Rosa, C. S. S. Guimaraes, E. P. de Freitas},\n  title = {Unmanned Aerial Vehicles Data Model},\n  booktitle = {IEEE Latin Conference on IoT, 2025.},\n  year = {2025}\n}"
   },
   {
-    "id": "pub-067",
+    "id": "pub-079",
     "type": "Conferência Internacional",
     "title": "Reinforcement Learning for Optimization of Collision Avoidance in Multiple Autonomous Aerial Robots Systems",
-    "authors": "M. R. Vizzotto, G. Kohl, C. E. Pereira, E. P. de Freitas,`",
+    "authors": "M. R. Vizzotto, G. Kohl, C. E. Pereira, E. P. de Freitas",
     "venue": "International Conference on Control, Decision and Information Technologies, 2025.",
     "year": 2025,
     "status": "Publicado",
@@ -1672,10 +1961,10 @@
       "VANTs & Sistemas Autônomos",
       "IA & Aprendizado de Máquina"
     ],
-    "bibtex": "@inproceedings{vizzotto2025reinforcement,\n  author = {M. R. Vizzotto, G. Kohl, C. E. Pereira, E. P. de Freitas,`},\n  title = {Reinforcement Learning for Optimization of Collision Avoidance in Multiple Autonomous Aerial Robots Systems},\n  booktitle = {International Conference on Control, Decision and Information Technologies, 2025.},\n  year = {2025}\n}"
+    "bibtex": "@inproceedings{vizzotto2025reinforcement,\n  author = {M. R. Vizzotto, G. Kohl, C. E. Pereira, E. P. de Freitas},\n  title = {Reinforcement Learning for Optimization of Collision Avoidance in Multiple Autonomous Aerial Robots Systems},\n  booktitle = {International Conference on Control, Decision and Information Technologies, 2025.},\n  year = {2025}\n}"
   },
   {
-    "id": "pub-068",
+    "id": "pub-080",
     "type": "Conferência Internacional",
     "title": "Development of a Modified Yagi-Uda Antenna Operating in UHF for Communication Systems Embedded onto Nanosatellites",
     "authors": "Magdalena M. M. Mikue, Juner M. Vieira, Edson R. Schlosser, Marcos V. T. Heckler",
@@ -1699,7 +1988,7 @@
     "bibtex": "@inproceedings{mikue2025development,\n  author = {Magdalena M. M. Mikue, Juner M. Vieira, Edson R. Schlosser, Marcos V. T. Heckler},\n  title = {Development of a Modified Yagi-Uda Antenna Operating in UHF for Communication Systems Embedded onto Nanosatellites},\n  booktitle = {19th European Conference on Antennas and Propagation, 2025.},\n  year = {2025}\n}"
   },
   {
-    "id": "pub-069",
+    "id": "pub-081",
     "type": "Periódico",
     "title": "Semi-Blind Receivers for Hybrid Reflecting and Sensing Reconfigurable Intelligent Surfaces",
     "authors": "A. L. Magalhães, A. L. F. de Almeida",
@@ -1724,7 +2013,7 @@
     "bibtex": "@article{magalhães2025semiblind,\n  author = {A. L. Magalhães, A. L. F. de Almeida},\n  title = {Semi-Blind Receivers for Hybrid Reflecting and Sensing Reconfigurable Intelligent Surfaces},\n  journal = {” IEEE Open Journal of the Communications Society, vol. 6, pp. 10542–10566, 2025.},\n  year = {2025}\n}"
   },
   {
-    "id": "pub-070",
+    "id": "pub-082",
     "type": "Periódico",
     "title": "Reducing Complexity of Data-Aided Channel Estimation in RIS-Assisted Communications",
     "authors": "A. L. Magalhães, A. L. F. de Almeida, G. T. de Araújo",
@@ -1749,7 +2038,7 @@
     "bibtex": "@article{magalhães2025reducing,\n  author = {A. L. Magalhães, A. L. F. de Almeida, G. T. de Araújo},\n  title = {Reducing Complexity of Data-Aided Channel Estimation in RIS-Assisted Communications},\n  journal = {” IEEE Wireless Communications Letters, vol. 14, no. 9, pp. 2758–2762, 2025.},\n  year = {2025}\n}"
   },
   {
-    "id": "pub-071",
+    "id": "pub-083",
     "type": "Periódico",
     "title": "Enhanced Channel Estimation for Double-RIS-Aided MIMO Systems Using Coupled Tensor Decompositions",
     "authors": "G. Nwalozie, A. L. F. de Almeida, Martin Haardt",
@@ -1774,7 +2063,7 @@
     "bibtex": "@article{nwalozie2025enhanced,\n  author = {G. Nwalozie, A. L. F. de Almeida, Martin Haardt},\n  title = {Enhanced Channel Estimation for Double-RIS-Aided MIMO Systems Using Coupled Tensor Decompositions},\n  journal = {” Signal Processing, vol. 234, 109979, 2025.},\n  year = {2025}\n}"
   },
   {
-    "id": "pub-072",
+    "id": "pub-084",
     "type": "Periódico",
     "title": "Channel Estimation for Beyond Diagonal Reconfigurable Intelligent Surfaces via Tensor Decomposition",
     "authors": "A. L. F. de Almeida, B. Sokal, H. Li, Bruno Clerckx",
@@ -1799,7 +2088,7 @@
     "bibtex": "@article{almeida2025channel,\n  author = {A. L. F. de Almeida, B. Sokal, H. Li, Bruno Clerckx},\n  title = {Channel Estimation for Beyond Diagonal Reconfigurable Intelligent Surfaces via Tensor Decomposition},\n  journal = {” IEEE Transactions on Signal Processing, 2025.},\n  year = {2025}\n}"
   },
   {
-    "id": "pub-073",
+    "id": "pub-085",
     "type": "Periódico",
     "title": "DADOS: Decentralized Autonomous Disaster Observation System",
     "authors": "E. Filho, M. Saideh, L. Vercouter, J. Silveira, C. Marcon, W. dos Santos",
@@ -1824,7 +2113,7 @@
     "bibtex": "@article{filho2025dados,\n  author = {E. Filho, M. Saideh, L. Vercouter, J. Silveira, C. Marcon, W. dos Santos},\n  title = {DADOS: Decentralized Autonomous Disaster Observation System},\n  journal = {” IEEE Journal of Selected Topics in Applied Earth Observations and Remote Sensing, 2025.},\n  year = {2025}\n}"
   },
   {
-    "id": "pub-074",
+    "id": "pub-086",
     "type": "Periódico",
     "title": "EnBaSe: Enhancing Image Classification in IoT Scenarios through Entropy-Based Selection of Non-IID Data",
     "authors": "E. G. Valente Neto, S. A. Peixoto, J. C. S. dos Anjos",
@@ -1847,7 +2136,7 @@
     "bibtex": "@article{neto2025enbase,\n  author = {E. G. Valente Neto, S. A. Peixoto, J. C. S. dos Anjos},\n  title = {EnBaSe: Enhancing Image Classification in IoT Scenarios through Entropy-Based Selection of Non-IID Data},\n  journal = {” Learning & Nonlinear Models, vol. 23, no. 1, pp. 1–16, 2025.},\n  year = {2025}\n}"
   },
   {
-    "id": "pub-075",
+    "id": "pub-087",
     "type": "Periódico",
     "title": "Adding Data Quality to Federated Learning Performance Improvement",
     "authors": "E. G. Valente Neto, S. A. Peixoto, V. R. Q. Leithardt, J. F. De Paz, J. C. S. dos Anjos",
@@ -1871,7 +2160,7 @@
     "bibtex": "@article{neto2025adding,\n  author = {E. G. Valente Neto, S. A. Peixoto, V. R. Q. Leithardt, J. F. De Paz, J. C. S. dos Anjos},\n  title = {Adding Data Quality to Federated Learning Performance Improvement},\n  journal = {” IEEE Access, vol. 13, pp. 126623–126648, 2025. doi:10.1109/ACCESS.2025.3578301},\n  year = {2025}\n}"
   },
   {
-    "id": "pub-076",
+    "id": "pub-088",
     "type": "Periódico",
     "title": "Compact Butler Matrix Using Lumped Elements",
     "authors": "E. Rodrigo Schlosser, E. G. Peres, N. F. da Silva, E. S. Sakomura, M. V. T. Heckler",
@@ -1894,7 +2183,7 @@
     "bibtex": "@article{schlosser2025compact,\n  author = {E. Rodrigo Schlosser, E. G. Peres, N. F. da Silva, E. S. Sakomura, M. V. T. Heckler},\n  title = {Compact Butler Matrix Using Lumped Elements},\n  journal = {” Microwave and Optical Technology Letters, vol. 67, no. 6, e70253, 2025.},\n  year = {2025}\n}"
   },
   {
-    "id": "pub-077",
+    "id": "pub-089",
     "type": "Periódico",
     "title": "An All-Digital Coherent AFSK Demodulator for CubeSat Applications",
     "authors": "R. V. Pacelli, R. D. L. Florindo, F. Antreich, A. L. F. de Almeida, A. Rovira García",
@@ -1919,7 +2208,7 @@
     "bibtex": "@article{pacelli2025alldigital,\n  author = {R. V. Pacelli, R. D. L. Florindo, F. Antreich, A. L. F. de Almeida, A. Rovira García},\n  title = {An All-Digital Coherent AFSK Demodulator for CubeSat Applications},\n  journal = {” Digital Signal Processing, vol. 162, 105147, 2025.},\n  year = {2025}\n}"
   },
   {
-    "id": "pub-078",
+    "id": "pub-090",
     "type": "Periódico",
     "title": "Performance Assessment of Change Detection Based on Robust Principal Component Analysis for Synthetic Aperture Radar Images",
     "authors": "L. P. Ramos, Vu T. Vu, M. I. Pettersson, P. Dammert, L. T. Duarte, R. Machado",
@@ -1943,7 +2232,7 @@
     "bibtex": "@article{ramos2025performance,\n  author = {L. P. Ramos, Vu T. Vu, M. I. Pettersson, P. Dammert, L. T. Duarte, R. Machado},\n  title = {Performance Assessment of Change Detection Based on Robust Principal Component Analysis for Synthetic Aperture Radar Images},\n  journal = {” Sensors, vol. 25, no. 8, 2506, 2025.},\n  year = {2025}\n}"
   },
   {
-    "id": "pub-079",
+    "id": "pub-091",
     "type": "Periódico",
     "title": "Two-Dimensional Channel Parameter Estimation for IRS-Assisted Networks",
     "authors": "F. E. Asim, B. Sokal, A. L. F. de Almeida, B. Makki, G. Fodor",
@@ -1966,7 +2255,7 @@
     "bibtex": "@article{asim2025twodimensional,\n  author = {F. E. Asim, B. Sokal, A. L. F. de Almeida, B. Makki, G. Fodor},\n  title = {Two-Dimensional Channel Parameter Estimation for IRS-Assisted Networks},\n  journal = {” IEEE Transactions on Communications, to appear, 2025.},\n  year = {2025}\n}"
   },
   {
-    "id": "pub-080",
+    "id": "pub-092",
     "type": "Periódico",
     "title": "Structured Channel Estimation for RIS-Assisted THz Communications",
     "authors": "F. E. Asim, B. Sokal, A. L. F. de Almeida, B. Makki, G. Fodor",
@@ -1990,7 +2279,7 @@
     "bibtex": "@article{asim2025structured,\n  author = {F. E. Asim, B. Sokal, A. L. F. de Almeida, B. Makki, G. Fodor},\n  title = {Structured Channel Estimation for RIS-Assisted THz Communications},\n  journal = {” IEEE Transactions on Vehicular Technology, vol. 74, no. 3, pp. 5175–5180, 2025.},\n  year = {2025}\n}"
   },
   {
-    "id": "pub-081",
+    "id": "pub-093",
     "type": "Periódico",
     "title": "Providing an energy efficient UAV BS positioning mechanism to improve wireless connectivity",
     "authors": "F. Pasandideh, A. Najafzadeh, J. P. J. da Costa, G. A. Santos, D. V. de Lima, E. P. de Freitas",
@@ -2015,7 +2304,7 @@
     "bibtex": "@article{pasandideh2025providing,\n  author = {F. Pasandideh, A. Najafzadeh, J. P. J. da Costa, G. A. Santos, D. V. de Lima, E. P. de Freitas},\n  title = {Providing an energy efficient UAV BS positioning mechanism to improve wireless connectivity},\n  journal = {” Ad Hoc Networks, vol. 170, 103767, 2025.},\n  year = {2025}\n}"
   },
   {
-    "id": "pub-082",
+    "id": "pub-094",
     "type": "Periódico",
     "title": "Cluster-Based Machine Learning-Driven Routing for UAV Networks in 6G Environment",
     "authors": "L. A. L. da Costa, R. C. de Lamare, R. Kunst, E. P. de Freitas",
@@ -2041,7 +2330,7 @@
     "bibtex": "@article{costa2025clusterbased,\n  author = {L. A. L. da Costa, R. C. de Lamare, R. Kunst, E. P. de Freitas},\n  title = {Cluster-Based Machine Learning-Driven Routing for UAV Networks in 6G Environment},\n  journal = {” IEEE Access, vol. 13, pp. 174957–174969, 2025.},\n  year = {2025}\n}"
   },
   {
-    "id": "pub-083",
+    "id": "pub-095",
     "type": "Periódico",
     "title": "SFEM3: A performance comparative analysis for SDN-based FANET Emulation using Mininet-WiFi and ns-3",
     "authors": "M. Tropea, C. E. Q. Aldana, E. P. de Freitas, F. De Rango",
@@ -2066,7 +2355,7 @@
     "bibtex": "@article{tropea2025sfem3,\n  author = {M. Tropea, C. E. Q. Aldana, E. P. de Freitas, F. De Rango},\n  title = {SFEM3: A performance comparative analysis for SDN-based FANET Emulation using Mininet-WiFi and ns-3},\n  journal = {” Ad Hoc Networks, vol. 177, 103859, 2025.},\n  year = {2025}\n}"
   },
   {
-    "id": "pub-084",
+    "id": "pub-096",
     "type": "Periódico",
     "title": "A preprocessed and labeled image dataset of building facades for UAV-Based maintenance applications",
     "authors": "M. G. Monteiro, A. D. S. Roque, D. H. Pohren, E. P. de Freitas",
@@ -2091,7 +2380,7 @@
     "bibtex": "@article{monteiro2025preprocessed,\n  author = {M. G. Monteiro, A. D. S. Roque, D. H. Pohren, E. P. de Freitas},\n  title = {A preprocessed and labeled image dataset of building facades for UAV-Based maintenance applications},\n  journal = {” IFAC-Papers Online, vol. 59, no. 27, pp. 178–183, 2025.},\n  year = {2025}\n}"
   },
   {
-    "id": "pub-085",
+    "id": "pub-097",
     "type": "Periódico",
     "title": "Solving pathfinding problems in cubic grids using 3D neighborhood extension",
     "authors": "T. O. dos Santos, L. A. de Lima Silva, A. C. Neto, E. P. de Freitas",
@@ -2116,7 +2405,7 @@
     "bibtex": "@article{santos2025solving,\n  author = {T. O. dos Santos, L. A. de Lima Silva, A. C. Neto, E. P. de Freitas},\n  title = {Solving pathfinding problems in cubic grids using 3D neighborhood extension},\n  journal = {” Expert Systems with Applications, vol. 292, 128663, 2025.},\n  year = {2025}\n}"
   },
   {
-    "id": "pub-086",
+    "id": "pub-098",
     "type": "Periódico",
     "title": "SENTINEL: Enhancing Trust and Transparency in IoT Networks Through Graph-Based Data Collection and Blockchain",
     "authors": "E. Filho, N. Gurjão, L. Furtado, J. Silveira, L. Vercouter, J. Soares",
@@ -2139,7 +2428,7 @@
     "bibtex": "@article{filho2025sentinel,\n  author = {E. Filho, N. Gurjão, L. Furtado, J. Silveira, L. Vercouter, J. Soares},\n  title = {SENTINEL: Enhancing Trust and Transparency in IoT Networks Through Graph-Based Data Collection and Blockchain},\n  journal = {” IEEE Embedded Systems Letters, 2025.},\n  year = {2025}\n}"
   },
   {
-    "id": "pub-087",
+    "id": "pub-099",
     "type": "Periódico",
     "title": "Beam Steering and Cross-Polarization Decoupling Enhancement for 4×4 Microstrip Antenna Arrays with Differential Evolution",
     "authors": "G. P. Paulena, J. M. Vieira, E. R. Schlosser, M. V. T. Heckler",
@@ -2162,7 +2451,7 @@
     "bibtex": "@article{paulena2025beam,\n  author = {G. P. Paulena, J. M. Vieira, E. R. Schlosser, M. V. T. Heckler},\n  title = {Beam Steering and Cross-Polarization Decoupling Enhancement for 4×4 Microstrip Antenna Arrays with Differential Evolution},\n  journal = {” International Journal of Microwave and Wireless Technologies, 2025.},\n  year = {2025}\n}"
   },
   {
-    "id": "pub-088",
+    "id": "pub-100",
     "type": "Periódico",
     "title": "Compact Top-Loaded Quarter-Cylinder Dielectric Resonator Antenna",
     "authors": "G. P. Paulena, J. M. Vieira, A. H. A. A. Bouari, E. R. Schlosser, M. V. T. Heckler",
@@ -2185,7 +2474,7 @@
     "bibtex": "@article{paulena2025compact,\n  author = {G. P. Paulena, J. M. Vieira, A. H. A. A. Bouari, E. R. Schlosser, M. V. T. Heckler},\n  title = {Compact Top-Loaded Quarter-Cylinder Dielectric Resonator Antenna},\n  journal = {” Journal of Microwaves, Optoelectronics and Electromagnetic Applications, 2025.},\n  year = {2025}\n}"
   },
   {
-    "id": "pub-089",
+    "id": "pub-101",
     "type": "Periódico",
     "title": "A Cooperative Multi-UAV System Framework for Precision Agriculture with GNSS Interference Mitigation",
     "authors": "E. Lazzari, K. Luvisa, A. Santos da Silva, O. A. Rocha da Cruz, C. E. Pereira, E. P. de Freitas",
@@ -2213,7 +2502,7 @@
     "bibtex": "@article{lazzari2025cooperative,\n  author = {E. Lazzari, K. Luvisa, A. Santos da Silva, O. A. Rocha da Cruz, C. E. Pereira, E. P. de Freitas},\n  title = {A Cooperative Multi-UAV System Framework for Precision Agriculture with GNSS Interference Mitigation},\n  journal = {” Unmanned Systems, 2025.},\n  year = {2025}\n}"
   },
   {
-    "id": "pub-090",
+    "id": "pub-102",
     "type": "Periódico",
     "title": "Securet3D: An Adaptive Secure Routing Algorithm for Vertically–Partially Connected Three-Dimensional Network-on-Chip",
     "authors": "A. da Silva, L. Nogueira, A. Coelho, J. Silveira, C. Marcon",
@@ -2237,7 +2526,7 @@
     "bibtex": "@article{silva2025securet3d,\n  author = {A. da Silva, L. Nogueira, A. Coelho, J. Silveira, C. Marcon},\n  title = {Securet3D: An Adaptive Secure Routing Algorithm for Vertically–Partially Connected Three-Dimensional Network-on-Chip},\n  journal = {” IEEE Transactions on Very Large Scale Integration Systems, vol. 33, no. 1, pp. 275–287, 2025.},\n  year = {2025}\n}"
   },
   {
-    "id": "pub-091",
+    "id": "pub-103",
     "type": "Conferência Nacional (SBrT)",
     "title": "Closed-Form Joint Symbol and Channel Estimation in Hybrid RIS-Aided Communication Systems",
     "authors": "A. L. Magalhães, G. T. de Araújo, F.-E. Asim, A. L. F. de Almeida",
@@ -2262,7 +2551,7 @@
     "bibtex": "@inproceedings{magalhães2024closedform,\n  author = {A. L. Magalhães, G. T. de Araújo, F.-E. Asim, A. L. F. de Almeida},\n  title = {Closed-Form Joint Symbol and Channel Estimation in Hybrid RIS-Aided Communication Systems},\n  booktitle = {Proceedings of XLII Brazilian Telecommunications and Signal Processing Symposium (SBrT), 2024.},\n  year = {2024}\n}"
   },
   {
-    "id": "pub-092",
+    "id": "pub-104",
     "type": "Conferência Nacional (SBrT)",
     "title": "PARAFAC-Based Time-Varying Channel Estimation for IRS-Aided Communications",
     "authors": "K. B. dos A. Benício, André L. F. de Almeida, B. Sokal, F.-E. Asim, B. Makki, G. Fodor",
@@ -2287,7 +2576,7 @@
     "bibtex": "@inproceedings{benício2024parafacbased,\n  author = {K. B. dos A. Benício, André L. F. de Almeida, B. Sokal, F.-E. Asim, B. Makki, G. Fodor},\n  title = {PARAFAC-Based Time-Varying Channel Estimation for IRS-Aided Communications},\n  booktitle = {Proceedings of XLII Brazilian Telecommunications and Signal Processing Symposium (SBrT), 2024.},\n  year = {2024}\n}"
   },
   {
-    "id": "pub-093",
+    "id": "pub-105",
     "type": "Conferência Nacional (SBrT)",
     "title": "Rain Detection Using Commercial Microwave Link Data and K-Means Clustering",
     "authors": "R. V. O. Paiva, T. F. Maciel, R. Z. Prado, M. Kacou, M. Gosset",
@@ -2313,7 +2602,7 @@
     "bibtex": "@inproceedings{paiva2024rain,\n  author = {R. V. O. Paiva, T. F. Maciel, R. Z. Prado, M. Kacou, M. Gosset},\n  title = {Rain Detection Using Commercial Microwave Link Data and K-Means Clustering},\n  booktitle = {Proceedings of XLII Brazilian Telecommunications and Signal Processing Symposium (SBrT), 2024.},\n  year = {2024}\n}"
   },
   {
-    "id": "pub-094",
+    "id": "pub-106",
     "type": "Conferência Nacional (SBrT)",
     "title": "Dielectric Reflective Surface Characterization Using Dual-Polarization GNSS Reflectometry",
     "authors": "D. O. Silva, F. Antreich, L. S. Pereira, E. R. Schlosser, M. V. T. Heckler",
@@ -2341,7 +2630,7 @@
     "bibtex": "@inproceedings{silva2024dielectric,\n  author = {D. O. Silva, F. Antreich, L. S. Pereira, E. R. Schlosser, M. V. T. Heckler},\n  title = {Dielectric Reflective Surface Characterization Using Dual-Polarization GNSS Reflectometry},\n  booktitle = {Proceedings of Brazilian Symposium on Microwaves and Optoelectronics, Bento Gonçalves, Brasil, 2024.},\n  year = {2024}\n}"
   },
   {
-    "id": "pub-095",
+    "id": "pub-107",
     "type": "Conferência Nacional (SBrT)",
     "title": "Antena de Microfita de Baixo Custo para Recepção de Sinais GNSS-R",
     "authors": "L. S. Pereira, M. V. T. Heckler, E. R. Schlosser, F. Antreich",
@@ -2367,7 +2656,7 @@
     "bibtex": "@inproceedings{pereira2024antena,\n  author = {L. S. Pereira, M. V. T. Heckler, E. R. Schlosser, F. Antreich},\n  title = {Antena de Microfita de Baixo Custo para Recepção de Sinais GNSS-R},\n  booktitle = {Proceedings of Brazilian Symposium on Microwaves and Optoelectronics, Bento Gonçalves, Brasil, 2024.},\n  year = {2024}\n}"
   },
   {
-    "id": "pub-096",
+    "id": "pub-108",
     "type": "Conferência Internacional",
     "title": "Resilient Software Defined Satellite Networks",
     "authors": "J. A. da Silva, P. Mendes, E. P. de Freitas",
@@ -2392,7 +2681,7 @@
     "bibtex": "@inproceedings{silva2024resilient,\n  author = {J. A. da Silva, P. Mendes, E. P. de Freitas},\n  title = {Resilient Software Defined Satellite Networks},\n  booktitle = {IEEE International Conference on Software Defined Systems, 2024.},\n  year = {2024}\n}"
   },
   {
-    "id": "pub-097",
+    "id": "pub-109",
     "type": "Conferência Internacional",
     "title": "On Suppression of Angular Side-Lobes in Drone-borne SAR Tomography",
     "authors": "K. Lukin, J. A. Goes, H. E. H. Figuera",
@@ -2417,7 +2706,7 @@
     "bibtex": "@inproceedings{lukin2024suppression,\n  author = {K. Lukin, J. A. Goes, H. E. H. Figuera},\n  title = {On Suppression of Angular Side-Lobes in Drone-borne SAR Tomography},\n  booktitle = {IEEE International Geoscience and Remote Sensing Symposium, 2024.},\n  year = {2024}\n}"
   },
   {
-    "id": "pub-098",
+    "id": "pub-110",
     "type": "Conferência Internacional",
     "title": "Power Spectral Density of the Received Signal in Noise Radar at the Presence of Antennas Leakage",
     "authors": "K. Lukin et al.",
@@ -2442,7 +2731,7 @@
     "bibtex": "@inproceedings{al.2024power,\n  author = {K. Lukin et al.},\n  title = {Power Spectral Density of the Received Signal in Noise Radar at the Presence of Antennas Leakage},\n  booktitle = {International Radar Symposium, 2024.},\n  year = {2024}\n}"
   },
   {
-    "id": "pub-099",
+    "id": "pub-111",
     "type": "Conferência Internacional",
     "title": "nMatrix: A New Decoding Algorithm for Matrix Error-Correction Codes",
     "authors": "D. Freitas et al.",
@@ -2466,7 +2755,7 @@
     "bibtex": "@inproceedings{al.2024nmatrix,\n  author = {D. Freitas et al.},\n  title = {nMatrix: A New Decoding Algorithm for Matrix Error-Correction Codes},\n  booktitle = {Anais do Latin-American Symposium on Dependable and Secure Systems, 2024.},\n  year = {2024}\n}"
   },
   {
-    "id": "pub-100",
+    "id": "pub-112",
     "type": "Conferência Internacional",
     "title": "Joint Channel and Symbol Estimation for Hybrid RIS Wireless Communications",
     "authors": "A. L. Magalhães, A. L. F. de Almeida",
@@ -2490,7 +2779,7 @@
     "bibtex": "@inproceedings{magalhães2024joint,\n  author = {A. L. Magalhães, A. L. F. de Almeida},\n  title = {Joint Channel and Symbol Estimation for Hybrid RIS Wireless Communications},\n  booktitle = {19th International Symposium on Wireless Communication Systems, 2024.},\n  year = {2024}\n}"
   },
   {
-    "id": "pub-101",
+    "id": "pub-113",
     "type": "Conferência Internacional",
     "title": "Low-Complexity Tensor-Based Monostatic Sensing for IRS-Assisted Communication System",
     "authors": "K. B. dos A. Benício, B. Sokal, A. L. F. de Almeida, F.-E. Asim, B. Makki, G. Fodor",
@@ -2515,7 +2804,7 @@
     "bibtex": "@inproceedings{benício2024lowcomplexity,\n  author = {K. B. dos A. Benício, B. Sokal, A. L. F. de Almeida, F.-E. Asim, B. Makki, G. Fodor},\n  title = {Low-Complexity Tensor-Based Monostatic Sensing for IRS-Assisted Communication System},\n  booktitle = {19th International Symposium on Wireless Communication Systems, 2024.},\n  year = {2024}\n}"
   },
   {
-    "id": "pub-102",
+    "id": "pub-114",
     "type": "Conferência Internacional",
     "title": "A Decoupled Channel Estimation Method for Beyond Diagonal RIS",
     "authors": "B. Sokal, F.-E. Asim, A. L. F. de Almeida",
@@ -2539,7 +2828,7 @@
     "bibtex": "@inproceedings{sokal2024decoupled,\n  author = {B. Sokal, F.-E. Asim, A. L. F. de Almeida},\n  title = {A Decoupled Channel Estimation Method for Beyond Diagonal RIS},\n  booktitle = {Asilomar Conference on Signals, Systems, and Computers, 2024.},\n  year = {2024}\n}"
   },
   {
-    "id": "pub-103",
+    "id": "pub-115",
     "type": "Conferência Internacional",
     "title": "RIS-Assisted Sensing: A Rank-1 Tensor Approach",
     "authors": "K. B. dos A. Benício, A. L. F. de Almeida, B. Sokal, F.-E. Asim, B. Makki, G. Fodor",
@@ -2564,7 +2853,7 @@
     "bibtex": "@inproceedings{benício2024risassisted,\n  author = {K. B. dos A. Benício, A. L. F. de Almeida, B. Sokal, F.-E. Asim, B. Makki, G. Fodor},\n  title = {RIS-Assisted Sensing: A Rank-1 Tensor Approach},\n  booktitle = {Asilomar Conference on Signals, Systems, and Computers, 2024.},\n  year = {2024}\n}"
   },
   {
-    "id": "pub-104",
+    "id": "pub-116",
     "type": "Conferência Internacional",
     "title": "Tensor-Based Receivers for the Bi-static Sensing and Communication Scenario",
     "authors": "W. C. Freitas Jr., G. Favier, A. L. F. de Almeida",
@@ -2591,7 +2880,7 @@
     "bibtex": "@inproceedings{jr.2024tensorbased,\n  author = {W. C. Freitas Jr., G. Favier, A. L. F. de Almeida},\n  title = {Tensor-Based Receivers for the Bi-static Sensing and Communication Scenario},\n  booktitle = {Asilomar Conference on Signals, Systems, and Computers, 2024.},\n  year = {2024}\n}"
   },
   {
-    "id": "pub-105",
+    "id": "pub-117",
     "type": "Conferência Internacional",
     "title": "Convolutional Neural Networks for Time Series Classification of Ionospheric Scintillation",
     "authors": "R. V. Pacelli, A. Aragón-Ángel, A. R. García, A. L. F. de Almeida, F. Antreich",
@@ -2617,7 +2906,7 @@
     "bibtex": "@inproceedings{pacelli2024convolutional,\n  author = {R. V. Pacelli, A. Aragón-Ángel, A. R. García, A. L. F. de Almeida, F. Antreich},\n  title = {Convolutional Neural Networks for Time Series Classification of Ionospheric Scintillation},\n  booktitle = {Proceedings of the 37th International Technical Meeting of the Satellite Division of The Institute of Navigation (ION GNSS+ 2024), 2024.},\n  year = {2024}\n}"
   },
   {
-    "id": "pub-106",
+    "id": "pub-118",
     "type": "Conferência Internacional",
     "title": "Advanced Multi-Frequency Phase-Locked Loops for Severe Ionospheric Scintillation Scenarios",
     "authors": "R. de L. Florindo, F. Antreich",
@@ -2641,7 +2930,7 @@
     "bibtex": "@inproceedings{florindo2024advanced,\n  author = {R. de L. Florindo, F. Antreich},\n  title = {Advanced Multi-Frequency Phase-Locked Loops for Severe Ionospheric Scintillation Scenarios},\n  booktitle = {Proceedings of the 37th International Technical Meeting of the Satellite Division of The Institute of Navigation (ION GNSS+ 2024), 2024.},\n  year = {2024}\n}"
   },
   {
-    "id": "pub-107",
+    "id": "pub-119",
     "type": "Conferência Internacional",
     "title": "Routing performance evaluation in centralized and distributed FANETs for 6G networks",
     "authors": "L. A. L. da Costa, R. Kunst, R. C. de Lamare, E. P. de Freitas",
@@ -2666,7 +2955,7 @@
     "bibtex": "@inproceedings{costa2024routing,\n  author = {L. A. L. da Costa, R. Kunst, R. C. de Lamare, E. P. de Freitas},\n  title = {Routing performance evaluation in centralized and distributed FANETs for 6G networks},\n  booktitle = {19th International Symposium on Wireless Communication Systems, 2024.},\n  year = {2024}\n}"
   },
   {
-    "id": "pub-108",
+    "id": "pub-120",
     "type": "Conferência Internacional",
     "title": "Low-Cost Smart Sensing Pipeline: Assembly, Calibration, and Interpretation of Air Quality Data",
     "authors": "L. Furtado, N. Monteiro, N. Gurjão, R. Cavalcante, E. Filho, J. Silveira, R. Santos, J. Soares, J. Macedo",
@@ -2690,7 +2979,7 @@
     "bibtex": "@inproceedings{furtado2024lowcost,\n  author = {L. Furtado, N. Monteiro, N. Gurjão, R. Cavalcante, E. Filho, J. Silveira, R. Santos, J. Soares, J. Macedo},\n  title = {Low-Cost Smart Sensing Pipeline: Assembly, Calibration, and Interpretation of Air Quality Data},\n  booktitle = {IEEE International Smart Cities Conference, 2024.},\n  year = {2024}\n}"
   },
   {
-    "id": "pub-109",
+    "id": "pub-121",
     "type": "Conferência Internacional",
     "title": "ELICITATION: A Satellite Constellation Simulator Using Multi-Agent Systems, Blockchain and the IoMT",
     "authors": "E. Filho, N. Moreira, M. Bourgais, C. Zanni-Merk, L. Vercouter, J. Silveira, W. Santos",
@@ -2715,7 +3004,7 @@
     "bibtex": "@inproceedings{filho2024elicitation,\n  author = {E. Filho, N. Moreira, M. Bourgais, C. Zanni-Merk, L. Vercouter, J. Silveira, W. Santos},\n  title = {ELICITATION: A Satellite Constellation Simulator Using Multi-Agent Systems, Blockchain and the IoMT},\n  booktitle = {IEEE Symposium on Computers and Communications, 2024.},\n  year = {2024}\n}"
   },
   {
-    "id": "pub-110",
+    "id": "pub-122",
     "type": "Conferência Internacional",
     "title": "NASCERR: Nanosatellite with Electronics Radiation Robust",
     "authors": "E. Filho, J. Vitorino, C. Alfredo, A. Almeida, N. Moreira, J. Silveira",
@@ -2739,7 +3028,7 @@
     "bibtex": "@inproceedings{filho2024nascerr,\n  author = {E. Filho, J. Vitorino, C. Alfredo, A. Almeida, N. Moreira, J. Silveira},\n  title = {NASCERR: Nanosatellite with Electronics Radiation Robust},\n  booktitle = {IEEE International Conference on Global Aeronautical Engineering and Satellite Technology, 2024.},\n  year = {2024}\n}"
   },
   {
-    "id": "pub-111",
+    "id": "pub-123",
     "type": "Periódico",
     "title": "Mobility Management in Integrated Sensing and Communications Networks",
     "authors": "Y. S. Ribeiro, B. Makki, A. L. F. de Almeida, F.-E. Asim, G. Fodor",
@@ -2762,7 +3051,7 @@
     "bibtex": "@article{ribeiro2024mobility,\n  author = {Y. S. Ribeiro, B. Makki, A. L. F. de Almeida, F.-E. Asim, G. Fodor},\n  title = {Mobility Management in Integrated Sensing and Communications Networks},\n  journal = {” submitted, 2024.},\n  year = {2024}\n}"
   },
   {
-    "id": "pub-112",
+    "id": "pub-124",
     "type": "Periódico",
     "title": "L1/E1/B1 and L5/E5a/B2a Band Dual-Polarized Microstrip Antenna for GNSS Reflectometry",
     "authors": "L. S. Pereira, E. R. Schlosser, A. H. A. A. Bouari, M. V. T. Heckler, J. M. Vieira, F. Antreich",
@@ -2789,7 +3078,7 @@
     "bibtex": "@article{pereira2024l1e1b1,\n  author = {L. S. Pereira, E. R. Schlosser, A. H. A. A. Bouari, M. V. T. Heckler, J. M. Vieira, F. Antreich},\n  title = {L1/E1/B1 and L5/E5a/B2a Band Dual-Polarized Microstrip Antenna for GNSS Reflectometry},\n  journal = {” Journal of Microwaves, Optoelectronics and Electromagnetic Applications, vol. 23, no. 4, 2024.},\n  year = {2024}\n}"
   },
   {
-    "id": "pub-113",
+    "id": "pub-125",
     "type": "Periódico",
     "title": "Measuring Amazon Rainfall Intensity with Sound Recorders",
     "authors": "R. S. Xavier, M. Gosset, T. F. Maciel, T. Bicudo, L. A. do Nascimento, E. Ramalho, A. Fleischmann",
@@ -2812,7 +3101,7 @@
     "bibtex": "@article{xavier2024measuring,\n  author = {R. S. Xavier, M. Gosset, T. F. Maciel, T. Bicudo, L. A. do Nascimento, E. Ramalho, A. Fleischmann},\n  title = {Measuring Amazon Rainfall Intensity with Sound Recorders},\n  journal = {” Geophysical Research Letters, vol. 51, 2024.},\n  year = {2024}\n}"
   },
   {
-    "id": "pub-114",
+    "id": "pub-126",
     "type": "Periódico",
     "title": "Airborne Fog Computing Framework: Instant Primers and Design Choices",
     "authors": "S. D. S. Antonio, P. M., D. R., E. C., E. P. de Freitas",
@@ -2836,7 +3125,7 @@
     "bibtex": "@article{antonio2024airborne,\n  author = {S. D. S. Antonio, P. M., D. R., E. C., E. P. de Freitas},\n  title = {Airborne Fog Computing Framework: Instant Primers and Design Choices},\n  journal = {” ITU Journal on Future and Evolving Technologies, vol. 5, no. 3, pp. 368–382, 2024.},\n  year = {2024}\n}"
   },
   {
-    "id": "pub-115",
+    "id": "pub-127",
     "type": "Periódico",
     "title": "On the Characterization of Reflective Surfaces Using Dual-Polarization GNSS Reflectometry",
     "authors": "D. O. Silva, F. Antreich, L. S. Pereira, E. R. Schlosser, M. V. T. Heckler",
@@ -2862,7 +3151,7 @@
     "bibtex": "@article{silva2024characterization,\n  author = {D. O. Silva, F. Antreich, L. S. Pereira, E. R. Schlosser, M. V. T. Heckler},\n  title = {On the Characterization of Reflective Surfaces Using Dual-Polarization GNSS Reflectometry},\n  journal = {” Signal Processing, vol. 220, 109692, 2024.},\n  year = {2024}\n}"
   },
   {
-    "id": "pub-116",
+    "id": "pub-128",
     "type": "Periódico",
     "title": "PRISM-Guardian: Enhancing Data Privacy in Devices with Sound Collection, Recognition and Sharing through Blockchain Technology",
     "authors": "M. Ferreira, G. Palitot, C. Marcon, L. Vercouter, J. Silveira",
@@ -2888,7 +3177,7 @@
     "bibtex": "@article{ferreira2024prismguardian,\n  author = {M. Ferreira, G. Palitot, C. Marcon, L. Vercouter, J. Silveira},\n  title = {PRISM-Guardian: Enhancing Data Privacy in Devices with Sound Collection, Recognition and Sharing through Blockchain Technology},\n  journal = {” IEEE Sensors Letters, vol. 8, no. 11, 2024.},\n  year = {2024}\n}"
   },
   {
-    "id": "pub-117",
+    "id": "pub-129",
     "type": "Periódico",
     "title": "Check-Bit Region Exploration in Two-Dimensional Error Correction Codes",
     "authors": "D. Freitas, L. Naviner, J. Mota, J. Silveira, C. Marcon, D. Mota",
@@ -2912,7 +3201,7 @@
     "bibtex": "@article{freitas2024checkbit,\n  author = {D. Freitas, L. Naviner, J. Mota, J. Silveira, C. Marcon, D. Mota},\n  title = {Check-Bit Region Exploration in Two-Dimensional Error Correction Codes},\n  journal = {IEEE Access, vol. 12, pp. 131830–131841, 2024.},\n  year = {2024}\n}"
   },
   {
-    "id": "pub-118",
+    "id": "pub-130",
     "type": "Periódico",
     "title": "Comparing Structures of Two-Dimensional Error Correction Codes",
     "authors": "A. Muniz, L. Mazzoco, W. Savaris, E. Pissolatto, T. Beneditto, A. Fritsch, J. Silveira, C. Marcon",
